@@ -7,7 +7,9 @@
 ## Envolvidos
 **Orientador:** 
 - [][Regis Pires](https://github.com/regispires)
+
 **Bolsistas:**
+
 - [] [Fabrício Pinheiro]()
 - [] [Guilherme Rodrigues](https://github.com/guiRodrigues)
 - [] [Henricky Lima](https://github.com/HenrickyL)
