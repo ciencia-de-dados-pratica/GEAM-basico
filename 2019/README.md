@@ -1,20 +1,20 @@
-# GEAM-básico 2019.2
+# GEAM-basico 2019.2
 
-## Grupo de Estudo em Aprendizagem de Máquina (GEAM- Básico)
-- [] **Objetivo:** Ensinar os conceitos de Aprendizagem de máquina através de ferramentas que trabalhem com workflows, como  o **Orange**, que facilitam o entendimento.
-- [] O projeto funcina semanalmente, onde os bolsistas separam problemas classicos ou simples de aprendizagem de máquina para que os participantes dos encontros possam, junto com o palestrante, exercitar os conceitos e técnicas expressas.
+## Grupo de Estudo em Aprendizagem de Maquina (GEAM- Basico)
+- [ ] **Objetivo:** Ensinar os conceitos de Aprendizagem de máquina atraves de ferramentas que trabalhem com workflows, como  o **Orange**, que facilitam o entendimento.
+- [ ] O projeto funcina semanalmente, onde os bolsistas separam problemas classicos ou simples de aprendizagem de maquina para que os participantes dos encontros possam, junto com os palestrantes, exercitar os conceitos e tecnicas apresentadas.
 
 ## Envolvidos
 **Orientador:** 
-- [][Regis Pires](https://github.com/regispires)
+- [ ][Regis Pires](https://github.com/regispires)
 
 **Bolsistas:**
 
-- [] [Fabrício Pinheiro]()
-- [] [Guilherme Rodrigues](https://github.com/guiRodrigues)
-- [] [Henricky Lima](https://github.com/HenrickyL)
-- [] [Ítalo Lima]()
-- [] [Matheus Emanuel]()
+- [ ] [Fabri�cio Pinheiro]()
+- [ ] [Guilherme Rodrigues](https://github.com/guiRodrigues)
+- [ ] [Henricky Lima](https://github.com/HenrickyL)
+- [ ] [�Italo Lima]()
+- [ ] [Matheus Emanuel]()
 
 
  

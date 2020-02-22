@@ -15,8 +15,8 @@ Isto pode nos permitir entender as tendências nos resultados com animais. Essas
 ## Participantes
 Obtiveram o 4º lugar utilizando apenas da Ferramenta Orange, com um score de 0.61986.
 
-- [] [Henricky Lima](https://github.com/HenrickyL)
-- [] [Matheus Emanuel]()
+- [ ] [Henricky Lima](https://github.com/HenrickyL)
+- [ ] [Matheus Emanuel]()
 
 ## Links
 - [Competição Keggle](https://www.kaggle.com/c/i-hackathon-geam-insightlab)

@@ -5,7 +5,7 @@
 
 
 ## Palestrante
-- [][Henricky Lima](https://github.com/HenrickyL)
+- [ ][Henricky Lima](https://github.com/HenrickyL)
 
 ## Links
 - [Canal do youtube](https://www.youtube.com/channel/UCnR_-6nHlN-RrKl76IHOxcw)
