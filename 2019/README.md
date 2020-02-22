@@ -6,14 +6,14 @@
 
 ## Envolvidos
 **Orientador:** 
-- [ ][Regis Pires](https://github.com/regispires)
+- [ ] [Regis Pires](https://github.com/regispires)
 
 **Bolsistas:**
 
 - [ ] [Fabri­cio Pinheiro]()
 - [ ] [Guilherme Rodrigues](https://github.com/guiRodrigues)
 - [ ] [Henricky Lima](https://github.com/HenrickyL)
-- [ ] [ÃItalo Lima]()
+- [ ] [Italo Lima]()
 - [ ] [Matheus Emanuel]()
 
 
