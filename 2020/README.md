@@ -1,2 +1,2 @@
-# Repositório de Tutoriais 2020
+# Repositório de Tutoriais criados em 2020
 
