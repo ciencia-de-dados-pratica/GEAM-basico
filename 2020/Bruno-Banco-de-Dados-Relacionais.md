@@ -22,11 +22,11 @@ A seguir são apresentadas as implementações de três tabelas:
 	**Carga_Horaria int**  
 **)**  
 
-**CREATE TABLE Matricula(**
-	**Num_Matricula int Primary Key,**
-	**Matr_Aluno int references Aluno(Num_Matricula),**
-	**Codigo_Disciplina varchar(10) references Disciplina(Codigo)**
- **)**
+**CREATE TABLE Matricula(**  
+	**Num_Matricula int Primary Key,**  
+	**Matr_Aluno int references Aluno(Num_Matricula),**  
+	**Codigo_Disciplina varchar(10) references Disciplina(Codigo)**  
+ **)**    
 
 Na tabela **Aluno** o campo **Num_Matricula** definido como **Primary Key**, é sua chave primaria.  
 
