@@ -40,12 +40,12 @@ referente ao **Codigo** da tabela **Disciplina**.
 
 Para realizar a inserção na tabela **Matricula** com valores que não sejam nulos, primeiro deve-se inserir os valores nas tabelas **Aluno** e **Disciplina**, como mostrado a seguir.  
 
-**INSERT INTO Aluno(Num_Matricula, Nome_Aluno, Sexo_Aluno) values (1, 'Maria', 'F'), (2, 'João', 'M')  
+**INSERT INTO Aluno(Num_Matricula, Nome_Aluno, Sexo_Aluno) values (1, 'Maria', 'F'), (2, 'João', 'M')**  
 
-**INSERT INTO Disciplina (Codigo, Nome, Carga_Horaria) values ('A-1', 'FUP', 64),('A-2', 'FBD', 32)  
+**INSERT INTO Disciplina (Codigo, Nome, Carga_Horaria) values ('A-1', 'FUP', 64),('A-2', 'FBD', 32)**  
 
 Apos a inserção pode-se inserir a matricula da aluna **Maria** na disciplina de **FUP**, pois elas já existem no Banco de Dados.  
 
-**INSERT INTO Matricula (Num_Matricula, Matr_Aluno, Codigo_Disciplina) values (1, 1, 'A-1')  
+**INSERT INTO Matricula (Num_Matricula, Matr_Aluno, Codigo_Disciplina) values (1, 1, 'A-1')**  
 
 Desse modo é possível povoar o Banco de Dados.
