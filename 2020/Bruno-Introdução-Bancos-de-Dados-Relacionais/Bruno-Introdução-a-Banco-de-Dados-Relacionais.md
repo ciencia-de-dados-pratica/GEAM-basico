@@ -4,27 +4,23 @@ Um banco de dados é uma aplicação que lhe permite armazenar e obter de volta 
 
 Para criar uma tabela em um Banco de Dados Relacional, deve-se executar o comando Data Definition Language (DDL) CREATE, como  no exemplo da tabela Aluno abaixo.  
 
-![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%201.png)
-**CREATE TABLE Aluno(**  
-	**Num_Matricula int,**  
-    **Nome_Aluno varchar(20),**  
-    **Sexo_Aluno varchar(1)**  
-**)**    
-
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%201.png)  
+   
 Após a tabela estar criada no Banco de Dados, pode-se inserir valores nela como no exemplo abaixo.  
 
-**INSERT INTO Aluno (Num_Matricula, Nome_Aluno, Sexo_Aluno) values (1,'João','M'),(2,'Maria','F')**  
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%202.png) 
 
 É possível buscar a tabela no banco executando o seguinte comando.  
 
-**SELECT * FROM Aluno**  
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%203.png)  
+
 
 É possível realizar a exclusão de duas formas.  
 
 No primeiro caso é possível excluir as linhas da tabela com o comando a seguir:  
 
-**DELETE FROM Aluno**  
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%204.png)  
 
 No segundo caso é possível excluir a tabela do Banco de Dados com comando a seguir:  
 
-**DROP TABLE Aluno**
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%205.png)
