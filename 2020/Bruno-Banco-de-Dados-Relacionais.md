@@ -22,4 +22,16 @@ A seguir são apresentadas as implementações de três tabelas:
 	**Carga_Horaria int**  
 **)**  
 
-Na tabela **Aluno** o campo Num_Matricula definido como **Primary Key**, é sua chave primaria.
+**CREATE TABLE Matricula(**
+	**Num_Matricula int Primary Key,**
+	**Matr_Aluno int references Aluno(Num_Matricula),**
+	**Codigo_Disciplina varchar(10) references Disciplina(Codigo)**
+ **)**
+
+Na tabela **Aluno** o campo **Num_Matricula** definido como **Primary Key**, é sua chave primaria.  
+
+Na tabela **Disciplina** o campo **Codigo** definido como **Primary Key** é sua chave primaria.  
+
+A tabela **Matricula** tem os campos, **Num_Matricula** que é sua chave primaria, **Matr_Aluno**, que uma chave estrangeira 
+(Foreign Key) referente ao **Num_Matricula** da tabela **Aluno** e **Codigo_Disciplina** que é uma outra chave estrangeira 
+referente ao **Codigo** da tabela **Disciplina**.
