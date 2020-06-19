@@ -10,8 +10,16 @@ O **Relacionamento** é a associação entre as entidades (tabelas), conectadas 
 
 A seguir são apresentadas as implementações de três tabelas:  
 
-**CREATE TABLE Aluno(  
-  **Num_Matricula int Primary Key,  
-  **Nome_Aluno varchar(20),  
-  **Sexo_Aluno varchar(1)  
-**)  
+**CREATE TABLE Aluno(**  
+  **Num_Matricula int Primary Key,**  
+  **Nome_Aluno varchar(20),**  
+  **Sexo_Aluno varchar(1)**  
+**)**  
+
+**CREATE TABLE Disciplina(**  
+	**Codigo varchar(10) Primary Key,**  
+	**Nome varchar(15),**  
+	**Carga_Horaria int**  
+**)**  
+
+Na tabela **Aluno** o campo Num_Matricula definido como **Primary Key**, é sua chave primaria.
