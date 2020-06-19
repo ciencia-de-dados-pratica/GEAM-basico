@@ -2,7 +2,7 @@
 
 Um banco de dados é uma aplicação que lhe permite armazenar e obter de volta dados com eficiência. O que o torna relacional é a maneira como os dados são armazenados e organizados no banco de dados.Um Banco de Dados Relacional consiste em uma coleção de tabelas, por sua vez uma tabela é composta por linhas e colunas.
 
-Para criar uma tabela em um Bando de Dados Relacional, deve-se executar o comando Data Definition Language (DDL) CREATE, como  no exemplo da tabela Aluno abaixo.  
+Para criar uma tabela em um Banco de Dados Relacional, deve-se executar o comando Data Definition Language (DDL) CREATE, como  no exemplo da tabela Aluno abaixo.  
   
 **CREATE TABLE Aluno(**  
 	**Num_Matricula int,**  
