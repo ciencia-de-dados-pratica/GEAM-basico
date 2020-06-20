@@ -10,11 +10,11 @@ O **Relacionamento** é a associação entre as entidades (tabelas), conectadas 
 
 A seguir são apresentadas as implementações de três tabelas:  
 
-![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%201.png) 
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%201.png)
 
-![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%202.png) 
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%202.png)
 
-![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%203.png)    
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%203.png)  
 
 Na tabela **Aluno** o campo **Num_Matricula** definido como **Primary Key**, é sua chave primaria.  
 
@@ -28,7 +28,7 @@ referente ao **Codigo** da tabela **Disciplina**.
 
 Para realizar a inserção na tabela **Matricula** com valores que não sejam nulos, primeiro deve-se inserir os valores nas tabelas **Aluno** e **Disciplina**, como mostrado a seguir.  
 
-![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%204.png)  
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%204.png)
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%205.png)  
 
