@@ -28,4 +28,4 @@ No primeiro caso é possível excluir as linhas da tabela com o comando a seguir
 
 No segundo caso é possível excluir a tabela do Banco de Dados com comando a seguir:  
 
-![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%205.png)
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%205.png) 
