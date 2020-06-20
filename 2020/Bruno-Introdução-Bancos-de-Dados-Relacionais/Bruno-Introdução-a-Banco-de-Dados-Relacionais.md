@@ -10,7 +10,7 @@ Para criar uma tabela em um Banco de Dados Relacional, deve-se executar o comand
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%201.png)  
    
-Após a tabela estar criada no Banco de Dados, pode-se inserir valores nela como no exemplo abaixo.  
+Após a tabela estar criada no Banco de Dados, pode-se inserir valores nela, como no exemplo abaixo.  
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%202.png) 
 
@@ -18,6 +18,7 @@ Após a tabela estar criada no Banco de Dados, pode-se inserir valores nela como
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Introdu%C3%A7%C3%A3o-Bancos-de-Dados-Relacionais/Imagens/Imagem%203.png)  
 
+## Exclusão
 
 É possível realizar a exclusão de duas formas.  
 
