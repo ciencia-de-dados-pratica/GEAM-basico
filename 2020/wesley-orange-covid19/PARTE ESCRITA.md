@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_d
 Adicione o widget Arquivo à tela e copie o link acima para o campo URL. Você pode conectá-lo a um widget da Tabela de dados e verificar se tudo está carregado corretamente. Você deve ver uma tabela com linhas correspondentes a regiões e países e colunas correspondentes a datas, com duas colunas adicionais detalhando os locais das regiões (latitude, longitude).
 
 
-<img src="wesley-orange-covid19/2020-04-02-file-widget.png" width="600">
+<img src="/wesley-orange-covid19/2020-04-02-file-widget.png" width="600">
 
 Observe que esses são dados ativos, portanto, seus resultados serão diferentes dos que mostramos aqui.
 
