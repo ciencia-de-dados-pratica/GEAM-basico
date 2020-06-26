@@ -15,23 +15,23 @@ Observe que esses são dados ativos, portanto, seus resultados serão diferentes
 
 Em seguida, conecte o widget Gráfico de Linha à Tabela de Dados e ele mostrará os dados dessa curva. Você aprenderá que essa é, obviamente, a província de Hubei - onde tudo começou.
 
-<img src="wesley-orange-covid19/file-lineplot.png" width="300">
+<img src="file-lineplot.png" width="300">
 
 Podemos fazer o contrário: conectar Arquivo à Tabela de Dados e Tabela de Dados ao Gráfico de Linha, para que a Tabela de Dados envie seu subconjunto selecionado de dados.
 Na Tabela de dados, agora você pode encontrar e clicar no seu país favorito. O Gráfico de linhas agora destacará a curva para a Eslovênia (ou qualquer país que você escolher). Você também pode selecionar vários países, como todas as províncias chinesas. Ou todos os países europeus.
 
-<img src="wesley-orange-covid19/file-datatable-lineplot.png" width="300">
+<img src="file-datatable-lineplot.png" width="300">
 
 Vamos fundi-los usando o widget Data Merge: conecte o widget Arquivo (com os dados de John Hopkins) e o widget Conjuntos de dados (com os dados do IDH) aos Mesclar dados. Certifique-se de combinar o recurso "País / Região" nos dados COVID-19 com o recurso "País" no IDH. Também é importante conectar os widgets nessa ordem, para que o File forneça os dados principais e o widget Dataset os amplie com colunas de anotação adicionais. Se você fizer isso incorretamente, clique duas vezes nas conexões para corrigi-lo.
 
-<img src="wesley-orange-covid19/merge-featureconstructor.png" width="300">
+<img src="merge-featureconstructor.png" width="300">
 
 A correspondência é imperfeita: alguns países aparecem com nomes diferentes, por exemplo, "Rússia" de John Hopkins não corresponde à "Federação Russa" do HDI e "EUA" de John Hopkin e não corresponde aos "Estados Unidos" do HDI.
 Para remover países com população desconhecida ou zero, continuamos com Select Rows, onde definimos a condição "População total (milhões) 2015 é maior que 0".
 
 Para obter o número de casos em um dia específico, usamos o widget Feature Constructor, onde podemos inserir uma fórmula para calcular novas colunas de dados. Em "Novo", selecionamos Numérico, digite casos por milhão como o nome da nova coluna, Selecione o Recurso "3_29_20" (ou a data que desejarmos), adicione / e selecione "Total_Population__millions__2015". Como atalho, você pode copiar _3_29_20 / Total_Population__millions__2015 na linha "Expressão ...". (Observe que um sublinhado precede 3_29_20: dessa forma, a Orange sabe que esse não é um número, mas o nome de uma coluna.)
 
-<img src="wesley-orange-covid19/into-featureconstructor.png" width="600">
+<img src="into-featureconstructor.png" width="600">
 
 Por fim, adicione e conecte uma Datatable.
 
@@ -42,17 +42,17 @@ Dessa forma, podemos ver quais países foram filtrados. Eles parecem ausentes po
 Vamos inserir um widget Edit Domain entre o widget  Datasets e Merge Data.
 
 
-<img src="wesley-orange-covid19/domain.png" width="600">
+<img src="domain.png" width="600">
 
 Nós encontramos e selecionamos a coluna País. Agora mude seu tipo de Texto para Categórico. Observe que isso está conceitualmente errado: “País” é uma variável de texto, contém um nome e não uma “categoria” de país, como o continente ou a direção da escrita. No entanto, Editar domínio apenas nos permite mapear seus valores se o alterarmos para categórico.
  
 Após alterar o tipo de variável, o widget mostrará outra caixa, Valores, com um mapeamento de valores. Vejamos os países no novo widget de tabela de dados de linhas excluídas. Vemos, por exemplo, "Bósnia e Herzegovina". Precisamos corresponder à forma como os dados de John Hopkins se referem aos países. Volte para Editar domínio e localize "Bósnia e Herz". Clique duas vezes e mude para "Bósnia e Herzegovina".
 Em Selecionar colunas, removemos a maioria dos recursos. Traga de volta todos aqueles que vêm do IDH.
 
-<img src="wesley-orange-covid19/penut.png" width="600">
+<img src="penut.png" width="600">
 
 Agora conecte um Gráfico de Dispersão e observe a relação entre o número de casos por milhão e o número de médicos por dez mil, que é a melhor aproximação das capacidades dos sistemas de saúde.
 
-<img src="wesley-orange-covid19/legitut.png" width="600">
+<img src="legitut.png" width="600">
 
 Com isso, podemos fazer analizes vizuais baseadas nos graficos que obitivemos
