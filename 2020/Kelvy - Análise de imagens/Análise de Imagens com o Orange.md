@@ -1,5 +1,5 @@
 # Análise de imagens com o Orange
-Nesse tutorial, usamos um Add-on do Orange para analisarmos imagens e verificarmos qual delas é mais semelhante à uma previamente escolhida. O dataset utilizado pode ser baixado [aqui!](http://file.biolab.si/images/Paintings.zip)
+Nesse tutorial, usamos um Add-on do Orange para analisarmos imagens e verificarmos qual delas é mais semelhante à uma previamente escolhida. O dataset utilizado pode ser baixado clicando [aqui!](http://file.biolab.si/images/Paintings.zip)
 
 ![workflow](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Kelvy%20-%20An%C3%A1lise%20de%20imagens/Imagens/Final.png)
 
