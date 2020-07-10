@@ -1,1 +1,9 @@
 Fórum GEAM #1 - Introdução e apresentação
+
+Nessa primeira parte da nossa colaboração iremos explorar a ferramenta de edição e o banco de dados que iremos utilizar. 
+Criaremos o nosso projeto e faremos a configuração para a conexão.
+
+Criando a aplicação
+
+Essa é a interface do nosso editor e onde iremos desenvolver nosso código.
+Na imagem já podemos ver a aba de projeto no lado esquerdo, onde as pastas da aplicação ficam organizadas 
