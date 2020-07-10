@@ -3,7 +3,7 @@
 Nessa primeira parte da nossa colaboração iremos explorar a ferramenta de edição e o banco de dados que iremos utilizar. 
 Criaremos o nosso projeto e faremos a configuração para a conexão.
 
-##Criando a aplicação
+## Criando a aplicação
 
 Essa é a interface do nosso editor e onde iremos desenvolver nosso código.
 Na imagem já podemos ver a aba de ferramentas, onde podemos manipular a IDE e o projeto como arquivo (1);
