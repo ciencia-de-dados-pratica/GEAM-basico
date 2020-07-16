@@ -10,23 +10,11 @@ O **Relacionamento** é a associação entre as entidades (tabelas), conectadas 
 
 A seguir são apresentadas as implementações de três tabelas:  
 
-**CREATE TABLE Aluno(**  
-  **Num_Matricula int Primary Key,**  
-  **Nome_Aluno varchar(20),**  
-  **Sexo_Aluno varchar(1)**  
-**)**  
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%201.png)
 
-**CREATE TABLE Disciplina(**  
-	**Codigo varchar(10) Primary Key,**  
-	**Nome varchar(15),**  
-	**Carga_Horaria int**  
-**)**  
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%202.png)
 
-**CREATE TABLE Matricula(**  
-	**Num_Matricula int Primary Key,**  
-	**Matr_Aluno int references Aluno(Num_Matricula),**  
-	**Codigo_Disciplina varchar(10) references Disciplina(Codigo)**  
- **)**    
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%203.png)  
 
 Na tabela **Aluno** o campo **Num_Matricula** definido como **Primary Key**, é sua chave primaria.  
 
@@ -40,12 +28,12 @@ referente ao **Codigo** da tabela **Disciplina**.
 
 Para realizar a inserção na tabela **Matricula** com valores que não sejam nulos, primeiro deve-se inserir os valores nas tabelas **Aluno** e **Disciplina**, como mostrado a seguir.  
 
-**INSERT INTO Aluno(Num_Matricula, Nome_Aluno, Sexo_Aluno) values (1, 'Maria', 'F'), (2, 'João', 'M')**  
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%204.png)
 
-**INSERT INTO Disciplina (Codigo, Nome, Carga_Horaria) values ('A-1', 'FUP', 64),('A-2', 'FBD', 32)**  
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%205.png)  
 
 Apos a inserção pode-se inserir a matricula da aluna **Maria** na disciplina de **FUP**, pois elas já existem no Banco de Dados.  
 
-**INSERT INTO Matricula (Num_Matricula, Matr_Aluno, Codigo_Disciplina) values (1, 1, 'A-1')**  
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Bacos-de-Dados-Relacionais-Conceitos-de-Chaves/Imagens/Imagem%206.png)  
 
 Desse modo é possível povoar o Banco de Dados.
