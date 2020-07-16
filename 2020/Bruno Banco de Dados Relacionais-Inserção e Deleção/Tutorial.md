@@ -38,3 +38,14 @@ Outra forma da problema na inserção é tentar inserir duas tuplas na mesma tab
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno%20Banco%20de%20Dados%20Relacionais-Inser%C3%A7%C3%A3o%20e%20Dele%C3%A7%C3%A3o/Imagens/Imagem%207.png)
 
 ## Deleção
+
+Para realizar a deleção de tuplas na tabela **Aluno** existe restrições, pois a tabela esta sendo referenciada na tabela **Matricula**. Na definição da tabela **Matricula** a chave estrangeira foi definida com **ON DELETE CASCADE**, desse modo sempre que uma tupla for deletada na tabela **Aluno** é realizada também a deleção de todas as tuplas da tabela **Matricula** que referenciam aquela tupla da tabela aluno.
+
+No exemplo abaixo é apresentada a deleção de uma tupla da tabela **Aluno** com a chave primaria 1, neste caso também são deletadas todas as tuplas da tabela **Matricula** que tenham na chave estrangeira o valor 1.
+
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno%20Banco%20de%20Dados%20Relacionais-Inser%C3%A7%C3%A3o%20e%20Dele%C3%A7%C3%A3o/Imagens/Imagem%208.png)
+
+Como não existe nenhuma tabela que referencia a tabela **Matricula**, a deleção de tuplas nesta tabela ocorre de forma simples, como mostrado no exemplo abaixo, pois esse processo não afeta nenhuma outra tabela. 
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno%20Banco%20de%20Dados%20Relacionais-Inser%C3%A7%C3%A3o%20e%20Dele%C3%A7%C3%A3o/Imagens/Imagem%209.png)
