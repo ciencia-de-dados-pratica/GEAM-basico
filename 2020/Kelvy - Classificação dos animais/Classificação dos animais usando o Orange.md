@@ -1,5 +1,5 @@
 # Classificação dos Animais Usando o Orange
-Nesse tutorial, usamos o Orange para classificar os animais em suas classes (anfíbio, ave, inseto, mamífero, peixe, réptil ou invertebrado), de acordo com suas características biológicas, usando um dataset já integrado ao software.
+Nesse tutorial, usamos o Orange para classificar os animais em suas classes (anfíbio, ave, inseto, mamífero, peixe, réptil ou invertebrado), de acordo com suas características biológicas, usando um dataset já integrado ao software. Você pode optar também por um tutorial em [vídeo](https://www.youtube.com/watch?v=0hVTZouALM0&t=3s).
 
 ![Fim](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Kelvy%20-%20Classifica%C3%A7%C3%A3o%20dos%20animais/Imagens/Imagem-0.png)
 
