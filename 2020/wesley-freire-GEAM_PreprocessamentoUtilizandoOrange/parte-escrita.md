@@ -4,7 +4,7 @@ exemplo img:
 
 
 
-#Pré processamento de dados com Orange
+# Pré processamento de dados com Orange
 
 Nesse tutorial, nossa finalidade será fazer a preparação e clusterização de dados.
 para exemplificar utilizaremos uma planilha fictícia de funcionários que pode ser acessada por meio deste link: https://docs.google.com/spreadsheets/d/1mN7ifkPZfKT6h0Bel_TyvoHPdJvtK_OY879iheOVZPk/edit?usp=sharing
@@ -13,7 +13,7 @@ para exemplificar utilizaremos uma planilha fictícia de funcionários que pode 
 
 Para iniciar, utilizaremos o widget Process
 
-###Widget no. 1: Preprocess
+### Widget no. 1: Preprocess
 
 Pode normalizar variáveis de dados numéricos. Digamos que temos um conjunto de dados fictícios de pessoas empregadas em sua empresa. Queremos saber quais funcionários têm mais probabilidade de sair de férias, com base na renda anual, anos de trabalho em sua empresa e total de anos de experiência no setor. Se você plotar isso no mapa de calor, verá uma linha amarela em negrito em "renda anual". Obviamente, isso acontece porque a renda anual tem valores muito mais altos do que anos de experiência ou anos empregados pela sua empresa. Naturalmente, você gostaria que o salário não sobrecarregasse o restante do conjunto de recursos; portanto, a normalização é o caminho a percorrer. A normalização transformará seus valores em termos relativos, ou seja (dependendo do tipo de normalização) em uma escala de 0 a 1. Agora, o Mapa de Calor mostra com nitidez que as pessoas que estão empregadas há mais tempo e têm um salário mais alto costumam ir nos feriados. (este é um conjunto de dados totalmente fictício.)
 
@@ -23,7 +23,7 @@ Pode imputar valores ausentes. A imputação média ou mais frequente do valor a
 Se você deseja comparar seus resultados com um conjunto de dados misturado aleatoriamente, selecione "Aleatório" ou, se desejar selecionar recursos relevantes, esse é o widget.
 O pré-processamento precisa ser usado com cautela e entendimento de seus dados para evitar a perda de informações importantes ou, pior ainda, o ajuste excessivo do modelo. Um bom exemplo é um caso de paramédicos, que geralmente não registram o pulso se for normal. Os valores ausentes aqui, portanto, não podem ser imputados por um valor médio ou número aleatório, mas como um valor distinto (pulso normal). O conhecimento do domínio é sempre crucial para a preparação dos dados.
 
-###Widget no. 2: Discretize
+### Widget no. 2: Discretize
 
 //img
 
@@ -37,11 +37,11 @@ dados originais
 
 Dados discretos com "anos de trabalho" inferiores ou superiores a / igual a 8 (o mesmo para 'renda anual' e 'experiência no setor').
 
-###Widget no. 3: Continuize
+### Widget no. 3: Continuize
 
 Este widget cria essencialmente novos atributos a partir dos seus discretos. Se você tem, por exemplo, um atributo com a cor dos olhos das pessoas, em que os valores podem ser azul, marrom ou verde, você provavelmente desejaria ter três atributos separados 'azul', 'verde' e 'marrom' com 0 ou 1 se uma pessoa tiver a cor dos olhos. Alguns alunos têm um desempenho muito melhor se os dados forem transformados dessa maneira. Você também pode ter apenas atributos nos quais você presume que 0 é uma condição normal e gostaria apenas de registrar desvios do estado normal ('destino ou primeiro valor como base') ou o estado normal seria o valor mais comum ("valor mais frequente como base"). O widget Continuize oferece muito espaço para você jogar. O melhor é selecionar um pequeno conjunto de dados com valores discretos, conectá-lo ao Continuize e depois à Tabela de Dados e alterar os parâmetros. É assim que você pode observar as transformações em tempo real. É útil para projetar pontos de dados discretos na Projeção Linear.
 
-###Widget no. 4: Purge Domain
+### Widget no. 4: Purge Domain
 //img
 
 Enxugue e classifique seus dados. É isso que o Purge Domain faz. Se todos os valores de alguns atributos forem constantes, ele removerá esses atributos. Se você tiver atributos (vazios) não utilizados em seus dados, eles serão removidos. Efetivamente, você obterá um conjunto de dados agradável e abrangente no final.
