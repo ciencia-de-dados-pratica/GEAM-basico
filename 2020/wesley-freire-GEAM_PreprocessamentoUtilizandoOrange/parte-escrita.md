@@ -36,12 +36,12 @@ Dados discretos com "anos de trabalho" inferiores ou superiores a / igual a 8 (o
 Este widget cria essencialmente novos atributos a partir dos seus discretos. Se você tem, por exemplo, um atributo com a cor dos olhos das pessoas, em que os valores podem ser azul, marrom ou verde, você provavelmente desejaria ter três atributos separados 'azul', 'verde' e 'marrom' com 0 ou 1 se uma pessoa tiver a cor dos olhos. Alguns alunos têm um desempenho muito melhor se os dados forem transformados dessa maneira. Você também pode ter apenas atributos nos quais você presume que 0 é uma condição normal e gostaria apenas de registrar desvios do estado normal ('destino ou primeiro valor como base') ou o estado normal seria o valor mais comum ("valor mais frequente como base"). O widget Continuize oferece muito espaço para você jogar. O melhor é selecionar um pequeno conjunto de dados com valores discretos, conectá-lo ao Continuize e depois à Tabela de Dados e alterar os parâmetros. É assim que você pode observar as transformações em tempo real. É útil para projetar pontos de dados discretos na Projeção Linear.
 
 ### Widget no. 4: Purge Domain
-<img src="imgs/purge.png" width="600">
+<img src="imgs/purge.png" width="300">
 
 Enxugue e classifique seus dados. É isso que o Purge Domain faz. Se todos os valores de alguns atributos forem constantes, ele removerá esses atributos. Se você tiver atributos (vazios) não utilizados em seus dados, eles serão removidos. Efetivamente, você obterá um conjunto de dados agradável e abrangente no final.
 
 <img src="imgs/purge1.png" width="600">
 Dados originais
 
-<img src="imgs/purge2.png" width="600">
+<img src="imgs/purge2.png" width="300">
 Colunas vazias e colunas com o mesmo valor (constante) foram removidas. Obviamente, não se esqueça de incluir todos esses procedimentos em seu relatório com o botão "Relatório".
