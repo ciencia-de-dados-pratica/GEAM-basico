@@ -11,7 +11,7 @@ Para iniciar, utilizaremos o widget Process
 
 Pode normalizar variáveis de dados numéricos. Digamos que temos um conjunto de dados fictícios de pessoas empregadas em sua empresa. Queremos saber quais funcionários têm mais probabilidade de sair de férias, com base na renda anual, anos de trabalho em sua empresa e total de anos de experiência no setor. Se você plotar isso no mapa de calor, verá uma linha amarela em negrito em "renda anual". Obviamente, isso acontece porque a renda anual tem valores muito mais altos do que anos de experiência ou anos empregados pela sua empresa. Naturalmente, você gostaria que o salário não sobrecarregasse o restante do conjunto de recursos; portanto, a normalização é o caminho a percorrer. A normalização transformará seus valores em termos relativos, ou seja (dependendo do tipo de normalização) em uma escala de 0 a 1. Agora, o Mapa de Calor mostra com nitidez que as pessoas que estão empregadas há mais tempo e têm um salário mais alto costumam ir nos feriados. (este é um conjunto de dados totalmente fictício.)
 
-<img src="imgs/mapadecalor.png" width="600">
+<img src="imgs/mapadecalor.png" width="300">
 
 Pode imputar valores ausentes. A imputação média ou mais frequente do valor ausente pode parecer muito simples, mas na verdade funciona na maioria das vezes. Além disso, todos os alunos que precisam de imputação o fazem implicitamente, para que o usuário não precise configurar mais um widget para isso.
 Se você deseja comparar seus resultados com um conjunto de dados misturado aleatoriamente, selecione "Aleatório" ou, se desejar selecionar recursos relevantes, esse é o widget.
@@ -19,7 +19,7 @@ O pré-processamento precisa ser usado com cautela e entendimento de seus dados 
 
 ### Widget no. 2: Discretize
 
-<img src="imgs/discretize.png" width="600">
+<img src="imgs/discretize.png" width="300">
 
 Para determinadas tarefas, você pode querer recorrer ao binning, que é o que o Discretize faz. Ele efetivamente distribui seus valores contínuos em um número selecionado de posições, tornando a variável discreta. Você pode discretizar todas as suas variáveis de dados de uma só vez, usando o tipo de discretização selecionado ou selecionar um método de discretização específico para cada atributo. O legal é que a transformação já é exibida no widget, para que você saiba instantaneamente o que está recebendo no final. Um bom exemplo de discretização seria ter um conjunto de dados de seus clientes com a idade deles gravada. Não faria sentido segmentar os clientes de acordo com cada idade específica, portanto, agrupá-los em quatro faixas etárias (jovem, adulto jovem, meia-idade, sênior) seria uma ótima solução. Além disso, algumas visualizações requerem transformação de recurso - o Diagrama de peneira é atualmente um desses widgets. O Mosaic Display, no entanto, tem a transformação já implementada internamente.
 
