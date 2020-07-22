@@ -10,6 +10,7 @@ Nesse tutorial, nossa finalidade será fazer a preparação e clusterização de
 para exemplificar utilizaremos uma planilha fictícia de funcionários que pode ser acessada por meio deste link: https://docs.google.com/spreadsheets/d/1mN7ifkPZfKT6h0Bel_TyvoHPdJvtK_OY879iheOVZPk/edit?usp=sharing
 
 //img planilha funcionários
+<img src="imgs/planilha funcionarios.png" width="600">
 
 Para iniciar, utilizaremos o widget Process
 
