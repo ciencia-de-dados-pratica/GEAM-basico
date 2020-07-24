@@ -1,7 +1,8 @@
 # Pré processamento de dados com Orange
 
 Nesse tutorial, nossa finalidade será fazer a preparação e clusterização de dados.
-para exemplificar utilizaremos uma planilha fictícia de funcionários que pode ser acessada por meio deste link: https://docs.google.com/spreadsheets/d/1mN7ifkPZfKT6h0Bel_TyvoHPdJvtK_OY879iheOVZPk/edit?usp=sharing
+para exemplificar utilizaremos uma planilha fictícia de funcionários que pode ser acessada por meio deste link: 
+https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/wesley-freire-GEAM_PreprocessamentoUtilizandoOrange/imgs/empregados%20video3.xlsx
 
 <img src="imgs/planilha funcionarios.png" width="600">
 
