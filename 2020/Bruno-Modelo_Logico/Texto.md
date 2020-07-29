@@ -46,3 +46,16 @@ A imagem a seguir representa o modelo lógico das entidades acima.
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Modelo_Logico/Imagens/1-N.png)
 
 Observe que a entidade **Telefone** recebeu o campo **NúmeroAluno**, referente a **Número** da entidade **Aluno**.
+
+### Cardinalidade N:N
+
+A cardinalidade N:N no modelo lógico, gera uma nova tabela que representa a relação.
+
+Observe o modelo conceitual abaixo que representa a cardinalidade N:N entre Professor e Disciplina.    
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Modelo_Logico/Imagens/S-N-N.png)
+
+Na imagem abaixo observe que a partir da cardinalidade N:N entre Aluno e Disciplina, surgiu a entidade **Estuda** que herda as chaves primarias de Aluno e Disciplina.
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Modelo_Logico/Imagens/N-N.png)
+
