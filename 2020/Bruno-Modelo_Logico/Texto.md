@@ -59,3 +59,7 @@ Na imagem abaixo observe que a partir da cardinalidade N:N entre Aluno e Discipl
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Modelo_Logico/Imagens/N-N.png)
 
+## Considerações finais
+
+O Modelo Lógico é uma ótima técnica para a auxiliar na criação de um Banco de Dados, pois nele é possível modelar o Banco de Dados evitando problemas com a estrutura do Banco durante a implementação do modelo físico.
+
