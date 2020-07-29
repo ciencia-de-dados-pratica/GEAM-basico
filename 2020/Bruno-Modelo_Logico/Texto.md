@@ -13,3 +13,36 @@ Neste tutorial iremos ver o **Modelo Lógico**.
 
 ## Modelo Lógico
 
+O modelo lógico já leva em conta algumas limitações e implementa recursos como adequação de padrão e nomenclatura, define as chaves primárias e estrangeiras, normalização, integridade referencial, entre outras. Para o modelo lógico deve ser criado levando em conta os exemplos de modelagem de dados criados no modelo conceitual.
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Modelo_Logico/Imagens/Completo.png)
+
+No modelo lógico as cardinalidades são representadas de forma diferente.
+
+### Cardinalidade 1:1
+
+Na cardinalidade 1:1, não é gerada nenhuma tabela adicional, porém é adicionado um novo campo em uma das tabelas.
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Modelo_Logico/Imagens/S-1-1.png)
+
+A imagem acima representa a relação no modelo conceitual entre **Aluno** e **Morada**.
+
+A imagem a seguir representa a relação acima no **Modelo Lógico**.
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Modelo_Logico/Imagens/1-1.png)
+
+Quando temos uma cardinalidade 1:1 no **Modelo Lógico**, uma das tabelas recebe o atributo da outra. Observe que a entidade **Morada** recebeu o campo **Número_Aluno**, referente ao campo **Número** da entidade **Aluno**.
+
+### Cardinalidade 1:N
+
+Na cardinalidade 1:N, assim como na cardinalidade 1:1, uma das entidades recebe o atributo da outra, nesse caso a que tiver a cardinalidade N.
+
+Observe o modelo conceitual a segir.
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Modelo_Logico/Imagens/S-1-N.png)
+
+A imagem a seguir representa o modelo lógico das entidades acima.
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Modelo_Logico/Imagens/1-N.png)
+
+Observe que a entidade **Telefone** recebeu o campo **NúmeroAluno**, referente a **Número** da entidade **Aluno**.
