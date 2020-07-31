@@ -1,0 +1,19 @@
+import numpy as np
+from Orange.data import Domain, StringVariable
+from orangecontrib.text.corpus import Corpus
+
+tokens = in_data.tokens
+new_domain = Domain(attributes=[], metas=[StringVariable('Sentences'), StringVariable('Title')])
+
+titles = []
+content = []
+
+for i, doc in enumerate(tokens):
+    for t in doc:
+        titles.append(in_data[i]['Title'].value)
+        content.append(t)
+
+metas = np.column_stack((content, titles))
+out_data = Corpus.from_numpy(domain=new_domain, X=np.empty((len(content), 0)),
+                            metas=metas)
+out_data.set_text_features([StringVariable('Sentences')])
