@@ -31,7 +31,7 @@ Agora nós vamos conectar o Data Table, com o texto selecionado, ao widget Prepr
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Kelvy%20-%20An%C3%A1lise%20de%20sentimentos%20com%20o%20Orange-%20percorrendo%20um%20texto/Imagens/Screenshot_8.png)
 
-Depois disso, vamos conectar o texto pré-processado ao widget Python Script, que permite programação em Python e vai nos propocionar uma função que não está pré-definida no Orange, criando um novo Corpus, com as sentenças, apartir dos nossos tokens. Copie o código abaixo:
+Depois disso, vamos conectar o texto pré-processado ao widget Python Script, que permite programação em Python e vai nos propocionar uma função que não está pré-definida no Orange, criando um novo Corpus, com as sentenças, a partir dos nossos tokens. Copie o código abaixo:
 ```
 import numpy as np
 from Orange.data import Domain, StringVariable
