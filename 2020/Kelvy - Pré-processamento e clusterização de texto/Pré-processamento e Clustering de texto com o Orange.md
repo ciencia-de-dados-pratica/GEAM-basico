@@ -1,5 +1,5 @@
 # Pré-processamento e Clustering de texto com o Orange
-Nesse tutorial, faremos o Pré-processamento de texto e separaremos em Clusters um dataset de histórias, que já vem no Orange, com o auxílio do Add-on Text Mining.
+Nesse tutorial, faremos o Pré-processamento de texto e separaremos em Clusters um dataset de histórias, que já vem no Orange, com o auxílio do Add-on Text Mining. Você pode optar também por um tutorial em [vídeo](https://www.youtube.com/watch?v=HWy9ITEzrKk).
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Kelvy%20-%20Pr%C3%A9-processamento%20e%20clusteriza%C3%A7%C3%A3o%20de%20texto/Imagens/Screenshot_0.png)
 
