@@ -1,33 +1,23 @@
 # Fórum GEAM #1 - Introdução e apresentação
 
-Nessa primeira parte da nossa colaboração iremos explorar a ferramenta de edição e o banco de dados que iremos utilizar. 
+### Nessa primeira parte da nossa colaboração iremos explorar a ferramenta de edição e o banco de dados que iremos utilizar. 
 Criaremos o nosso projeto e faremos a configuração para a conexão.
 
 ## Criando a aplicação
 
-Essa é a interface do nosso editor e onde iremos desenvolver nosso código.
-Na imagem já podemos ver a aba de ferramentas, onde podemos manipular a IDE e o projeto como arquivo (1);
-A aba de projeto no lado esquerdo, onde as pastas da aplicação ficam organizadas, podendo ser alterado o tipo de visualização (2);
-Onde adicionamos e selecionamos o tipo de emulador que iremos utilizar para a nossa aplicação (3);
-E por fim onde executamos o nosso projeto (4).
+ - Essa é a interface do nosso editor e onde iremos desenvolver nosso código. Na imagem já podemos ver a aba de ferramentas, onde podemos manipular a IDE e o projeto como arquivo (1); A aba de projeto no lado esquerdo, onde as pastas da aplicação ficam organizadas, podendo ser alterado o tipo de visualização (2); Onde adicionamos e selecionamos o tipo de emulador que iremos utilizar para a nossa aplicação (3); E por fim onde executamos o nosso projeto (4).
 
-<img src="imagens/print 1.jpg" width="800">
+<img src="imagens/print 1.jpg">
 
-Ao entrar na IDE, nosso primeiro passo é a criação do nosso projeto.
-Preenchemos com o nome da aplicação e com o nome do dominio para o projeto.
+ - Ao entrar na IDE, nosso primeiro passo é a criação do nosso projeto. Preenchemos com o nome da aplicação e com o nome do dominio para o projeto.
 
 <img src="imagens/print 2.jpg" >
 
-O próximo passo é a escolha do layout inicial, no nosso caso, como iremos criar o design do zero no próximo episódio, não importa tanto.
-Iniciamos com uma actvity vazia e damos início a criação do projeto pela IDE.
+- O próximo passo é a escolha do layout inicial, no nosso caso, como iremos criar o design do zero no próximo episódio, não importa tanto. Iniciamos com uma actvity vazia e damos início a criação do projeto pela IDE.
 
 <img src="imagens/print 3.jpg">
 
-Após a criação do projeto, iremos definir qual emulador utilizar.
-
-Primeiramente selecionamos qual o hardware em que iremos reproduzir nossa aplicação, no caso, aparelho celular (1);
-O modelo do aparelho (2);
-E por fim seguimos (3).
+ - Após a criação do projeto, iremos definir qual emulador utilizar. Primeiramente selecionamos qual o hardware em que iremos reproduzir nossa aplicação, no caso, aparelho celular (1); O modelo do aparelho (2); E por fim seguimos (3).
 
 <img src="imagens/print 5.jpg">  
 
