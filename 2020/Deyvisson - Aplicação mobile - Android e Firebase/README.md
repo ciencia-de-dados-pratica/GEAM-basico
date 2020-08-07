@@ -11,7 +11,7 @@ A aba de projeto no lado esquerdo, onde as pastas da aplicação ficam organizad
 Onde adicionamos e selecionamos o tipo de emulador que iremos utilizar para a nossa aplicação (3);
 E por fim onde executamos o nosso projeto (4).
 
-![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Deyvisson - Aplicação mobile - Android e Firebase/imagens/print 1.jpg)  
+<img src="2020/Deyvisson - Aplicação mobile - Android e Firebase/imagens/print 1.jpg" width="200">
 
 ![Alt Text](https://github.com//{repo}/raw/{branch}/path/to/image.gif)
 2020/Deyvisson - Aplicação mobile - Android e Firebase/imagens/print 1.jpg
