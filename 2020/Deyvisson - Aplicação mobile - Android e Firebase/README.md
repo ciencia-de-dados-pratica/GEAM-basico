@@ -1,7 +1,8 @@
 # Fórum GEAM #1 - Introdução e apresentação
 
-### Nessa primeira parte da nossa colaboração iremos explorar a ferramenta de edição e o banco de dados que iremos utilizar. 
-Criaremos o nosso projeto e faremos a configuração para a conexão.
+### Nessa primeira parte da nossa colaboração iremos explorar a ferramenta de edição e o banco de dados que iremos utilizar. Criaremos o nosso projeto e faremos a configuração para a conexão.
+
+Você pode acompanhar o tutorial também em [vídeo](https://youtu.be/bcHBpEcdvq0).
 
 ## Criando a aplicação
 
