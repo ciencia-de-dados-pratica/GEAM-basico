@@ -11,7 +11,7 @@ A aba de projeto no lado esquerdo, onde as pastas da aplicação ficam organizad
 Onde adicionamos e selecionamos o tipo de emulador que iremos utilizar para a nossa aplicação (3);
 E por fim onde executamos o nosso projeto (4).
 
-<img src="imagens/print 1.jpg" width="600">
+<img src="imagens/print 1.jpg" width="800">
 
 ![Alt Text](https://github.com//{repo}/raw/{branch}/path/to/image.gif)
 2020/Deyvisson - Aplicação mobile - Android e Firebase/imagens/print 1.jpg
