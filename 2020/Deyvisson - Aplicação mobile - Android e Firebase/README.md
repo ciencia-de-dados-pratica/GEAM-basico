@@ -77,7 +77,7 @@ Criaremos o nosso projeto e faremos a configuração para a conexão.
 
  - Primeiramente iremos conectar nossa conta do google com o Android Studio. O ícone do usuário fica localizado no canto superior direito, como mostra na figura abaixo:
 
-<img src="imagens/print 18.jpg">
+<img src="imagens/Print 18.jpg">
 
  - Ao clicar e selecionar o login, o navegador será aberto e irá solicitar permissão para o acesso.
 
