@@ -1,5 +1,5 @@
 # Análise de sentimentos com o Orange: percorrendo um texto
-Nesse tutorial, utilizaremos um pequeno dataset que vem no Orange para fazermos uma análise de sentimentos ao longo desse texto, contando com o auxílio dos add-ons Text Mining e Time Series.
+Nesse tutorial, utilizaremos um pequeno dataset que vem no Orange para fazermos uma análise de sentimentos ao longo desse texto, contando com o auxílio dos add-ons Text Mining e Time Series. Você pode optar por um tutorial em [vídeo](https://www.youtube.com/watch?v=pZuKsOi97QA&t=0s).
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Kelvy%20-%20An%C3%A1lise%20de%20sentimentos%20com%20o%20Orange-%20percorrendo%20um%20texto/Imagens/Screenshot_0.png)
 
