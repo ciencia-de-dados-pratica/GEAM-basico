@@ -1,5 +1,6 @@
 # Clusterização e k-means
 Tuturial em video:https://drive.google.com/file/d/1oc_-o6pE1W1ox0Iz8amMVhJhnZo4ndIU/view?usp=sharing
+
 Hoje falaremos sobre como agrupar dados usando o método K-means, que é um algoritmo de clusterização que separa os dados baseados nas diferentes distâncias entre grupos de dados. Esse tutorial é baseado em um vídeo do grupo criador do Orange: https://www.youtube.com/watch?v=vgmL808eSw4
 
 Para iniciar, utilizaremos o widget Paint data.
