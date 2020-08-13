@@ -22,22 +22,22 @@ A clausula **WHERE** define as condições de consulta.
 
 A seguir são apresentadas algumas consultas realizadas nas tabelas acima.
 
-**Consulta 1**
+### Consulta 1
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Consultas-SQL/Imagens/Consulta1.png)
 
-A consulta 1 retorna toda a tabela **Clientes**    
+A consulta 1 retorna toda a tabela **Clientes**
 
-**Consulta 2**
+### Consulta 2
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Consultas-SQL/Imagens/Consulta2.png)
 
-A consulta 2 retorna apenas os nomes dos clientes da tabela **Clientes**    
+A consulta 2 retorna apenas os nomes dos clientes da tabela **Clientes**
 
-**Consulta 3**
+### Consulta 3
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Consultas-SQL/Imagens/Consulta3.png)
 
-A consulta 3 retorna a junção da tabela **Clientes** com a tabela **Fiado**, onde o valor devido seja maior ou igual a 43.    
+A consulta 3 retorna a junção da tabela **Clientes** com a tabela **Fiado**, onde o valor devido seja maior ou igual a 43.
 
-**Consulta 4**
+### Consulta 4
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Consultas-SQL/Imagens/Consulta4.png)
 
 A consulta 4 retorna o maior valor devido da tabela **Fiado**.
