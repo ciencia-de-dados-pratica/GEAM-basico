@@ -1,5 +1,5 @@
 # Árvore de decisão com o Orange
-Nesse tutorial, utilizaremos um dataset disponível no Orange para fazermos o exemplo de um modelo de árvore de decisão e outros detalhes úteis para trabalharmos com nossos datasets.
+Nesse tutorial, utilizaremos um dataset disponível no Orange para fazermos o exemplo de um modelo de árvore de decisão e outros detalhes úteis para trabalharmos com nossos datasets. Você pode optar também por um tutorial em [vídeo](https://www.youtube.com/watch?v=D1BeV_4Q-HI).
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Kelvy%20-%20%C3%81rvore%20de%20decis%C3%A3o%20com%20o%20Orange/Imagens/Screenshot_0.png)
 
