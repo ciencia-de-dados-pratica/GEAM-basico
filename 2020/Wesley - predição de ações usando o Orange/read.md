@@ -6,7 +6,7 @@ Nesse tutorial mostraremos como funciona uma predição de valores numéricos, o
 
 Usando o Widget Yahoo finances podemos encontrar as ações da amazon. Definimos as datas e colhemos o resultado.
 
-<img src="imgs/amazon.png" alt="amzn" width="600">
+<img src="imgs/amazon.png" alt="amzn" width="300">
 
 Ligamos ao DataTable e vemos o resultado
 
@@ -29,7 +29,7 @@ Ligamos ele ao widget Test and Score.
 
 Como resultado, temos dentro de Test and Score os resultados de acurácia, que de modo geral, dizem respeito ao quão bom é o modelo.
 
-<img src="imgs/acuracia.jpg" alt="acuracia" width="600">
+<img src="imgs/acuracia.JPG" alt="acuracia" width="600">
 
 - MAE (erro médio absoluto) representa a diferença entre os valores originais e preditos extraídos pela média da diferença absoluta sobre o conjunto de dados.
 - MSE (erro quadrático médio) representa a diferença entre os valores originais e previstos extraídos ao quadrado da diferença média sobre o conjunto de dados.
