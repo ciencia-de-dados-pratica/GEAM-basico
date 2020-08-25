@@ -6,19 +6,17 @@ Nesse tutorial mostraremos como funciona uma predição de valores numéricos, o
 
 Usando o Widget Yahoo finances podemos encontrar as ações da amazon. Definimos as datas e colhemos o resultado.
 
-<img src="imgs/amazon.png" alt="amzn" />
-
-//amazon 
+<img src="imgs/amazon.png" alt="amzn" width="600">
 
 Ligamos ao DataTable e vemos o resultado
 
-//amzn data table
+<img src="imgs/amzn table.png" alt="table" width="600">
 
 ### Colunas
 
 No mercado financeiro existem várias formas de representar os dados referidos dado um período de tempo. a representação mais famosa é o gráfico de velas.
 
-//candle
+<img src="imgs/candle.png" alt="candle" width="600">
 
 Considerando, por exemplo, que cada vela representa um dia, temos a abertura(o preço da unidade da ação no qual o dia iniciou), o fechamento(o preço da unidade da ação no qual o dia encerrou), o preço máximo(pavio superior, o máximo que o preço da ação chegou naquele dia), e o preço mínimo(pavio inferior, o mínimo que o preço da ação chegou naquele dia). Além disso também temos em nosso dataset o volume, que representa a quantidade de ações negociadas naquele dia.
 
@@ -27,11 +25,11 @@ Considerando, por exemplo, que cada vela representa um dia, temos a abertura(o p
 Para prosseguirmos, utilizaremos um modelo de classificação chamado regressão linear.
 Ligamos ele ao widget Test and Score.
 
-//tas
+<img src="imgs/tas.png" alt="tas" width="600">
 
 Como resultado, temos dentro de Test and Score os resultados de acurácia, que de modo geral, dizem respeito ao quão bom é o modelo.
 
-//acurácia
+<img src="imgs/acuracia.jpg" alt="acuracia" width="600">
 
 - MAE (erro médio absoluto) representa a diferença entre os valores originais e preditos extraídos pela média da diferença absoluta sobre o conjunto de dados.
 - MSE (erro quadrático médio) representa a diferença entre os valores originais e previstos extraídos ao quadrado da diferença média sobre o conjunto de dados.
@@ -43,5 +41,6 @@ https://www.datatechnotes.com/2019/02/regression-model-accuracy-mae-mse-rmse.htm
  
 Finalmente ligamos nosso modelo e datatable ao widget Predictions e podemos ver o resultado que a regressão linear encontrou para cada linha. E assim concluímos.
 
-//predictions
+<img src="imgs/prediction.png" alt="predict" width="600">
+
 
