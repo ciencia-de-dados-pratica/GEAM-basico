@@ -6,6 +6,8 @@ Nesse tutorial mostraremos como funciona uma predição de valores numéricos, o
 
 Usando o Widget Yahoo finances podemos encontrar as ações da amazon. Definimos as datas e colhemos o resultado.
 
+<img src="imgs/amazon" alt="amzn" />
+
 //amazon 
 
 Ligamos ao DataTable e vemos o resultado
