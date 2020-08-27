@@ -1,6 +1,6 @@
 # Consultas SQL - Funções de agregação
 
-Neste tutorial vamos falar sobre funções de agregação em consultas SQL. Uma função de agregação processa um conjunto de valores contidos em uma única coluna de uma tabela e retorna um único valor como resultado. Sua sintaxe é semelhante aquela encontrada em muitas linguagens de programação. Contudo, o parâmetro informado é sempre a coluna cujos valores desejamos processar.
+Neste tutorial vamos falar sobre funções de agregação em consultas SQL, [aqui](https://www.youtube.com/watch?v=KLeY43B9O0k) é possível assistir a esse tutorial em vídeo no nosso canal do Youtube. Uma função de agregação processa um conjunto de valores contidos em uma única coluna de uma tabela e retorna um único valor como resultado. Sua sintaxe é semelhante aquela encontrada em muitas linguagens de programação. Contudo, o parâmetro informado é sempre a coluna cujos valores desejamos processar.
 
 Neste tutorial iremos utilizar como exemplo as duas tabelas a seguir, a tabela Clientes e a tabela Fiado.
 
