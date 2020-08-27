@@ -1,6 +1,6 @@
 # Consultas SQL
 
-Neste tutorial iremos falar sobre as consultas SQL. A linguagem de consulta de dados é usada para, fazer o que o nome diz, consultas, extrair informações de um banco de dados. É importante que essas consultas aconteçam sem causar mudanças no banco de dados, caso contrário dados valiosos poderiam ser prejudicados. 
+Neste tutorial iremos fazer uma introdução sobre as consultas SQL e serão apresentadas algumas consultas básicas, [aqui](https://youtu.be/XR7tiacPDWw) é possível assistir a esse tutorial em vídeo no nosso canal do Youtube. A linguagem de consulta de dados é usada para, fazer o que o nome diz, consultas, extrair informações de um banco de dados. É importante que essas consultas aconteçam sem causar mudanças no banco de dados, caso contrário dados valiosos poderiam ser prejudicados. 
 
 ## Definição das tabelas
 
