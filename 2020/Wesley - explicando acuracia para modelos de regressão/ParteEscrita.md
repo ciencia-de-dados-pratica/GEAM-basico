@@ -8,7 +8,7 @@ O modelo regressão linear pode ser um exemplo típico deste tipo de problema, e
 <img src="imgs/housing.png" alt="housing" width="600">
 
 
-Aqui temos um exemplo usando o data base housing, onde tentamos prever o preço da casa. Usamos 70% dos dados para treinar o restante. Linkando ele ao test and score teremos os resultados de avaliação.
+Aqui temos um exemplo usando o famoso data base housing, onde tentamos prever o preço da casa usando informomações do local onde esta situada e instâncias associadas a este local. Usamos 70% dos dados para treinar o restante. Linkando ele ao test and score teremos os resultados de avaliação.
 
 
 <img src="imgs/tstscore.png" alt="score" width="800">
