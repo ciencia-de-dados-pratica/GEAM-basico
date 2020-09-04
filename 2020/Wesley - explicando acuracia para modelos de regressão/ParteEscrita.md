@@ -4,13 +4,15 @@ Algo essencial em ML é saber se seu modelo de predição é bom o suficiente pa
 À primeira vista parece algo difícil de compreender mas hoje entenderemos a fundo como isso funciona para modelos de regressão.
 O modelo regressão linear pode ser um exemplo típico deste tipo de problema, e a principal característica do problema de regressão é que os alvos de um conjunto de dados contêm apenas os números reais.
 
-//housing
+
 <img src="imgs/housing.png" alt="housing" width="600">
+
 
 Aqui temos um exemplo usando o data base housing, onde tentamos prever o preço da casa. Usamos 70% dos dados para treinar o restante. Linkando ele ao test and score teremos os resultados de avaliação.
 
-//tstscore
-<img src="imgs/tstscore.png" alt="score" width="600">
+
+<img src="imgs/tstscore.png" alt="score" width="800">
+
 
 Como resultado temos as medidas de precisão do nosso modelo.
 
@@ -28,13 +30,16 @@ R-quadrado (coeficiente de determinação) representa o coeficiente de quão bem
 
 De uma forma mais visual temos:
 
-//acuracia
+
 <img src="imgs/acuracia.JPG" alt="acuracia" width="400">
+
 
 Para termos uma ideia podemos comparar o resultado da predição com o valor real. Com o widget Predictions temos tanto as acurácias quanto o resultado do modelo
 
-//prediction
-<img src="imgs/prediction.png" alt="predict" width="600">
+
+<img src="imgs/prediction.png" alt="predict" width="800">
+
+
 Como podemos ver, a diferença entre o predito e o real no primeiro valor é de 6 pontos, porém a diferença média de erro segundo o modelo é representado pelo MAE de 21,89. ou seja, o valor de cada casa variou com essa diferença pra cima ou para baixo.
 
 Esse tutorial é baseado na pagina
