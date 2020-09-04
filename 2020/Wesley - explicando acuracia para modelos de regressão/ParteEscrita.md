@@ -1,7 +1,7 @@
 ### Avaliação de modelo / Métricas de Regressão
 
-Algo essencial em ML é saber se seu modelo de predição é bom o suficiente para ser utilizado. Para isso são utilizados cálculos matemáticos baseados na resposta do modelo.
-À primeira vista parece algo difícil de compreender mas hoje entenderemos a fundo como isso funciona para modelos de regressão.
+Algo essencial em ciência de dados é saber se seu modelo de predição é bom o suficiente para ser utilizado. Para isso são utilizados cálculos matemáticos baseados na resposta do modelo dada uma determinada entrada.
+À primeira vista os termos parecem algo difícil de compreender mas hôje entenderemos a fundo como isso funciona para modelos de regressão.
 O modelo regressão linear pode ser um exemplo típico deste tipo de problema, e a principal característica do problema de regressão é que os alvos de um conjunto de dados contêm apenas os números reais.
 
 
@@ -40,7 +40,7 @@ Para termos uma ideia podemos comparar o resultado da predição com o valor rea
 <img src="imgs/prediction.png" alt="predict" width="800">
 
 
-Como podemos ver, a diferença entre o predito e o real no primeiro valor é de 6 pontos, porém a diferença média de erro segundo o modelo é representado pelo MAE de 21,89. ou seja, o valor de cada casa variou com essa diferença pra cima ou para baixo.
+Como podemos ver, a diferença entre o predito e o real no primeiro valor é de 6 pontos, porém a diferença média de erro segundo o modelo é representado pelo MAE de 21,89. ou seja, o valor de cada casa variou em media com essa diferença pra cima ou para baixo.
 
 Esse tutorial é baseado na pagina
 https://www.datatechnotes.com/2019/02/regression-model-accuracy-mae-mse-rmse.html
