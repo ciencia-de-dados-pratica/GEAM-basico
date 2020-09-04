@@ -16,7 +16,7 @@ Aqui temos um exemplo usando o data base housing, onde tentamos prever o preço 
 
 Como resultado temos as medidas de precisão do nosso modelo.
 
-## Medidas de modelos de regressão
+## Medidas de acuracia para modelos de regressão
 
 São elas MAE, MSE, RMSE, R-squared 
 
