@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/ajdapretnar/datasets/master/data/fruits-and-ve
 
 Seguindo, podemos usar o modelo que preferirmos para realizar o treino. Utilizaremos o KNN. Linkando ele e nossa base de dados ao widget Test and score e ele ao Confusion matrix, temos o seguinte resultado:
 
-<img src="imgs/modelo.png" alt="" width="600">
+<img src="imgs/modelo.png" alt="" width="400">
 
 Na matriz de confusão podemos ver o que o modelo acertou ou errou
 
