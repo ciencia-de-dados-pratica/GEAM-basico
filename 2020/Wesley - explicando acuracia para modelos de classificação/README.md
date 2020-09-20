@@ -10,7 +10,7 @@ As métricas são:
 Para exemplificar, usaremos um dataset para classificação de frutas e vegetais que pode ser obtido por este link:
 https://raw.githubusercontent.com/ajdapretnar/datasets/master/data/fruits-and-vegetables-train.tab
 
-<img src="imgs/dataset.png" alt="" width="300">
+<img src="imgs/dataset.png" alt="" width="400">
 
 Seguindo, podemos usar o modelo que preferirmos para realizar o treino. Utilizaremos o KNN. Linkando ele e nossa base de dados ao widget Test and score e ele ao Confusion matrix, temos o seguinte resultado:
 
