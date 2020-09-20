@@ -4,7 +4,7 @@ Neste tutorial falaremos sobre como saber se seu modelo de classificação está
 Para isso utilizamos ferramentas matemáticas, baseada na comparação entre o resultado real e os dados obtidos no treino, que retornam um valor cujo o significado será abordado mais à frente.
 As métricas são:
 
-<img src="imgs/metricas.png" alt="" width="600">
+<img src="imgs/metricas.png" alt="" width="300">
 
 ### Criando um exemplo
 Para exemplificar, usaremos um dataset para classificação de frutas e vegetais que pode ser obtido por este link:
