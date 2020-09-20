@@ -29,10 +29,10 @@ Focaremos agora em explicar as quatro métricas mais importantes: CA(Accuracy),F
 
 Para isso usaremos termos referentes aos tipos de resultados encontrados pelo modelo:
 
-True positive (TP): indica a quantidade de registros que foram classificados como positivos corretamente.
-True negative (TN): indica a quantidade de registros que foram classificados como negativos de maneira correta.
-False positive (FP): indica a quantidade de registros que foram classificados como comentários positivos de maneira incorreta.
-False negative (FN): indica a quantidade de registros que foram classificados como comentários negativos de maneira incorreta.
+- True positive (TP): indica a quantidade de registros que foram classificados como positivos corretamente.
+- True negative (TN): indica a quantidade de registros que foram classificados como negativos de maneira correta.
+- False positive (FP): indica a quantidade de registros que foram classificados como comentários positivos de maneira incorreta.
+- False negative (FN): indica a quantidade de registros que foram classificados como comentários negativos de maneira incorreta.
 
 Através desses quatro valores, seremos capazes de calcular os indicadores: Accuracy, Precision, Recall e F1 Score.
 
