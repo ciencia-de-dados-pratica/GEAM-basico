@@ -24,7 +24,7 @@ Temos assim que, dos 35 dados analisados onde 20 eram frutas e 15 vegetais, noss
 
 Em Test and score podemos ver cálculos que resumem essas informações em um valor numérico de porcentagem.
 
-<img src="imgs/tstscore.png" alt="" width="600">
+<img src="imgs/tstscore.png" alt="" width="400">
 
 Focaremos agora em explicar as quatro métricas mais importantes: CA(Accuracy),F1,Precision e Recall.
 
