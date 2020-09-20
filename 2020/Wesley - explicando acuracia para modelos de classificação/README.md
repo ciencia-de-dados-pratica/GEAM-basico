@@ -4,28 +4,27 @@ Neste tutorial falaremos sobre como saber se seu modelo de classificação está
 Para isso utilizamos ferramentas matemáticas, baseada na comparação entre o resultado real e os dados obtidos no treino, que retornam um valor cujo o significado será abordado mais à frente.
 As métricas são:
 
-<img src="imgs/metricas.png" alt="housing" width="600">
+<img src="imgs/metricas.png" alt="" width="600">
 
 ### Criando um exemplo
 Para exemplificar, usaremos um dataset para classificação de frutas e vegetais que pode ser obtido por este link:
 https://raw.githubusercontent.com/ajdapretnar/datasets/master/data/fruits-and-vegetables-train.tab
 
-<img src="imgs/dataset.png" alt="housing" width="600">
-	dataset.png
+<img src="imgs/dataset.png" alt="" width="300">
 
 Seguindo, podemos usar o modelo que preferirmos para realizar o treino. Utilizaremos o KNN. Linkando ele e nossa base de dados ao widget Test and score e ele ao Confusion matrix, temos o seguinte resultado:
 
-<img src="imgs/housing.png" alt="housing" width="600">
+<img src="imgs/modelo.png" alt="" width="600">
 
 Na matriz de confusão podemos ver o que o modelo acertou ou errou
 
-<img src="imgs/housing.png" alt="housing" width="600">
+<img src="imgs/matrix.png" alt="" width="400">
 
 Temos assim que, dos 35 dados analisados onde 20 eram frutas e 15 vegetais, nosso modelo acertou 18 frutas e 8 vegetais, por consequência confundiu 2 frutas com vegetais e 7 vegetais com frutas.
 
 Em Test and score podemos ver cálculos que resumem essas informações em um valor numérico de porcentagem.
 
-<img src="imgs/housing.png" alt="housing" width="600">
+<img src="imgs/tstscore.png" alt="" width="600">
 
 Focaremos agora em explicar as quatro métricas mais importantes: CA(Accuracy),F1,Precision e Recall.
 
