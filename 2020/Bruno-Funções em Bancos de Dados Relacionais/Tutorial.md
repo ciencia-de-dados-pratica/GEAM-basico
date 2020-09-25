@@ -21,3 +21,13 @@ Para dar um exemplo iremos criar uma função chamada taxa, que recebe um numeri
 Agora que temos a nossa função criada, podemos utilizá-la. Iremos fazer uma consulta na tabela **Ferramenta**, onde iremos retornar o nome, valor, a taxa que é o valor submetido a função e o valor mais a taxa.  
 
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Fun%C3%A7%C3%B5es%20em%20Bancos%20de%20Dados%20Relacionais/Imagens/Imagem03.png)
+
+### Apagando a Função
+
+O comando para apagar uma função é **DROP FUNCTION** e o nome da função.
+
+Para apagar a função criada anteriormente utiliza-se o comando **DROP FUNCTION TAXA**.
+
+# Conclusão
+
+As funções SQL são bem simples de se trabalhar e em algumas operações que realizamos em Bancos de Dados elas são fundamentais.
