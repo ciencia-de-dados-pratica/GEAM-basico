@@ -13,21 +13,21 @@ Para exemplificar utilizaremos o Dataset brown-selected que, basicamente, são d
 
 Usaremos um Workflow do site do Orange para esse exemplo, caso queira baixar, segue o link: https://orange.biolab.si/tags/Dimensionality-Reduction/
 
-workflowpng
+<img src="imgs/workflowpng.png" width="600">
 
 Nosso dataset é composto de 3 classes e 78 features, que serão resumidas em 4 pca´s
 
-	data
+<img src="imgs/data.png" width="600">
 
 em PCA podemos ver e decidir o número de features que utilizaremos
 movendo a linha preta no eixo Y podemos alterar esse número, resumindo toda a informação porém perdendo parte dela. Usaremos apenas 4, o que só cobre 51% das informações.
 A opção normalize variables ajusta todos os valores para uma escala só.
 
-	pca
+<img src="imgs/pca.png" width="600">
 
 Como resultado, no datatable teremos uma tabela com a descrição dos 4 pca´s
 
-	4pca
+<img src="imgs/4pca.png" width="600">
 
 Análise dos Componentes Principais (PCA) é um método estatístico linear que
 encontra os autovalores e autovetores da matriz de covariância dos dados e, com esse
@@ -44,4 +44,8 @@ imagem, já que a PCA promove uma compactação da energia.
 
 Com o emprego da PCA a visualização de diversas variáveis em um
 determinado conjunto de dados torna-se mais produtiva, rápida, objetiva e eficiente.
+
+Para informações mais aprofundadas na parte matematica do PCA acesse
+http://www2.ic.uff.br/~aconci/PCA-ACP.pdf
+
 
