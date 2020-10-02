@@ -13,7 +13,7 @@ Para exemplificar utilizaremos o Dataset brown-selected que, basicamente, são d
 
 Usaremos um Workflow do site do Orange para esse exemplo, caso queira baixar, segue o link: https://orange.biolab.si/tags/Dimensionality-Reduction/
 
-<img src="imgs/workflowpng.png" width="600">
+<img src="imgs/workflow.png" width="600">
 
 Nosso dataset é composto de 3 classes e 78 features, que serão resumidas em 4 pca´s
 
