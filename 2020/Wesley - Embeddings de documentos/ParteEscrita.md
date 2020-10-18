@@ -1,5 +1,3 @@
-<img src="imgs/InsidePaintdata.png" width="600">
-
 # Embeddings de documentos
 
 Neste tutorial abordaremos de uma forma prática como usar embedding de documentos criando um identificador de notícias falsas.
