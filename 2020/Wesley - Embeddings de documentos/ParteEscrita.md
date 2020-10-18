@@ -18,7 +18,7 @@ A deficiência dos incorporadores é que eles são difíceis de entender. Por ex
 
 A Orange agora oferece incorporadores de documentos por meio do widget Document Embedding. Decidimos usar fastText pretrained embedders, que suportam 157 idiomas. O widget de incorporação de documentos da Orange suporta atualmente os 31 idiomas mais comuns.
 
-<img src="imgs/documentembedding.png" width="600">
+<img src="imgs/documentembedding.png" width="300">
 
 No widget, o usuário define o idioma dos documentos e o método de agregação - é como os embeddings para cada palavra em um documento são agregados em um embedding de documento.
 
