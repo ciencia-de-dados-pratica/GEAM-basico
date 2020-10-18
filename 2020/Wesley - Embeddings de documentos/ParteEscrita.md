@@ -50,7 +50,7 @@ Quando nossos modelos são treinados, preparamos os dados de teste. Para carrega
 Na parte inferior do widget, inspecionamos as precisões. Na coluna com o nome CA (precisão de classificação), podemos observar que ambos os modelos apresentam desempenho em torno de 80%. Na tabela acima, podemos encontrar casos em que os modelos cometeram erros. Se selecionarmos as linhas, podemos verificá-las no widget Corpus Viewer que está conectado ao widget Predictions. Também conectamos o widget de matriz de confusão ao nosso fluxo de trabalho, que mostra as proporções entre as classes previstas e classes reais.
 
 <img src="imgs/forest.png" width="600">
-<img src="imgs/logistic.png" width="600">
+<img src="imgs/regresion.png" width="600">
 
 Podemos ver que a regressão logística é um pouco mais precisa em casos de notícias reais, enquanto o modelo de floresta aleatória é melhor para prever notícias falsas.
 
