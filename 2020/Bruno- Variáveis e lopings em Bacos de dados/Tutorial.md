@@ -14,13 +14,13 @@ Loop é uma palavra inglesa, que significa 'laço', 'circuito' ou 'sequência' e
 Para este tutorial, iremos utilizar como exemplo a tabela produtos.
 Segue abaixo os comandos de criação e inserção de valores nesta tabela.
 
-[](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-%20Vari%C3%A1veis%20e%20lopings%20em%20Bacos%20de%20dados/Imagens/Imagem01.png)
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-%20Vari%C3%A1veis%20e%20lopings%20em%20Bacos%20de%20dados/Imagens/Imagem01.png)
 
 ### Utilizando as variáveis e o loop
 
 Para utilizarmos as variáveis e o loop, iremos criar uma função chamada list_produtos. Segue abaixo a criação desta função.
 
-[](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-%20Vari%C3%A1veis%20e%20lopings%20em%20Bacos%20de%20dados/Imagens/Imagem02.png)
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-%20Vari%C3%A1veis%20e%20lopings%20em%20Bacos%20de%20dados/Imagens/Imagem02.png)
 
 A função acima atua sobre a tabela Produtos, nela temos três variáveis para auxiliar nesse processo. Após o DECLARE, temos a declaração das variáveis **soma**, **u_pos** e **eu**, e o tipo de cada variável.
 
