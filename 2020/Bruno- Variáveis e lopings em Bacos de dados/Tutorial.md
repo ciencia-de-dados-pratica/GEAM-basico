@@ -24,4 +24,16 @@ Para utilizarmos as variáveis e o loop, iremos criar uma função chamada list_
 
 A função acima atua sobre a tabela Produtos, nela temos três variáveis para auxiliar nesse processo. Após o DECLARE, temos a declaração das variáveis **soma**, **u_pos** e **eu**, e o tipo de cada variável.
 
-Também é possível  instanciar variáveis como é feito nas variáveis **eu** que recebe a string “Bruno” e a variável **soma** que recebe o valor 0.
+Também é possível  instanciar variáveis, como é feito nas variáveis **eu** que recebe a string “Bruno” e a variável **soma** que recebe o valor 0.
+
+O loop **for** está percorrendo a tabela Produtos e em cada tupla que o for passa, a variável **u_pos** recebe os valores da tupla.
+
+Dentro do for, é imprimida uma mensagem com o  nome do produto e na variável soma, é somado o valor do produto.
+
+No retorno da função temos uma string com o valor da variável **eu** e a soma total dos valores dos produtos.
+
+### Retorno do resultado
+
+Para retornar o resultado da função, executamos o comando apresentado abaixo.
+
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-%20Vari%C3%A1veis%20e%20lopings%20em%20Bacos%20de%20dados/Imagens/Imagem03.png)
