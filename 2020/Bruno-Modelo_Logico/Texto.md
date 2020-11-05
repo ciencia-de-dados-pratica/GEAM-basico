@@ -1,5 +1,6 @@
 # Bancos de Dados Relacionais - Modelo Lógico
-Neste tutorial iremos falar sobre diagramas de entidade/relacionamento.
+Neste tutorial iremos falar sobre diagramas de entidade/relacionamento.[Aqui](https://www.youtube.com/watch?v=FN4wcCk5rWM) é possível assistir a este tutorial em vídeo no nosso canal do Youtube.
+
 Um diagrama entidade relacionamento (ER) é um tipo de fluxograma que ilustra como “entidades”, por exemplo, pessoas, objetos ou conceitos, se relacionam entre si dentro de um sistema. Diagramas ER são mais utilizados para projetar ou depurar bancos de dados relacionais nas áreas de engenharia de software, sistemas de informações empresariais, educação e pesquisa.
 
 ## Etapas da construção de um Banco de Dados
