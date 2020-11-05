@@ -1,5 +1,7 @@
 # Introdução a Banco de Dados Relacionais
 
+Neste tutorial falaremos sobre os Bancos de dados relacionais. [Aqui](https://youtu.be/gzm3P-qnsV0) é possível assistir a este tutorial no nosso canal do Youtube.
+
 Um banco de dados é uma aplicação que lhe permite armazenar e obter de volta dados com eficiência. O que o torna relacional é a maneira como os dados são armazenados e organizados no banco de dados.Um Banco de Dados Relacional consiste em uma coleção de tabelas, por sua vez uma tabela é composta por linhas e colunas.  
 
 A imagem a baixo é uma representação de como funciona o modelo ER.
