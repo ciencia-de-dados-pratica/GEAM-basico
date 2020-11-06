@@ -1,6 +1,8 @@
 # Banco de Dados Relacionais - Inserção e Deleção
 
-Neste tutorial serão apresentados  alguns conceitos de inserção e remoção em Banco de Dados relacionais. Para isso serão utilizadas duas tabelas como exemplo:
+Neste tutorial serão apresentados  alguns conceitos de inserção e remoção em Banco de Dados relacionais. [Aqui](https://www.youtube.com/watch?v=Y8t1OUgFqG4) é possível assistir a esse tutorial em vídeo no Youtube.
+
+Para este tutorial serão utilizadas duas tabelas como exemplo:
 
 A tabela  pai que é **Aluno**, e a tabela filha que é **Matricula**.
 

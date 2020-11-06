@@ -1,5 +1,7 @@
 # Banco de Dados Relacionais - Conceitos de chaves
 
+Neste tutorial falaremos sobre chaves em bancos de dados. [Aqui](https://youtu.be/Wp9jWlrToJk) é possível assistir a este tutorial no nosso canal do Youtube.
+
 Um Banco de dados relacional é uma coleção de relações, que são tabelas bidimensionais, onde os dados são armazenados.No modelo relacional os dados são organizados em coleções de tabelas bidimensionais. Essas tabelas são também chamadas de “Relações”.  
 
 O **Relacionamento** é a associação entre as entidades (tabelas), conectadas por chaves primárias e chaves estrangeiras.  
