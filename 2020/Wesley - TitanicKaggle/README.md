@@ -21,21 +21,18 @@ A competição é simples: queremos que você use os dados do passageiro do Tita
 ## Os dados
 Para ver os dados da competição, clique na guia Dados na parte superior da página da competição. Em seguida, role para baixo para encontrar a lista de arquivos.
 
-<img src="imgs/data.png" width="300">
-//dados
+<img src="imgs/data.png" width="800">
 
 Existem três arquivos nos dados: (1) train.csv, (2) test.csv e (3) gender_submission.csv.
 
 (1) train.csv
 train.csv contém os detalhes de um subconjunto de passageiros a bordo (891 passageiros, para ser exato - onde cada passageiro obtém uma linha diferente na tabela). Para investigar esses dados, clique no nome do arquivo na coluna "Fontes de dados" (à esquerda da tela). Depois de fazer isso, todos os nomes das colunas (junto com uma breve descrição do que contêm) são listados à direita da tela, sob o título "Colunas".
 
-<img src="imgs/train1.png" width="300">
-// train1
+<img src="imgs/train1.png" width="800">
 
 Você pode ver todos os dados na mesma janela.
 
-<img src="imgs/train2.png" width="300">
-// train2
+<img src="imgs/train2.png" width="800">
 
 Os valores na segunda coluna ("Sobreviveu") podem ser usados ​​para determinar se cada passageiro sobreviveu ou não:
 
@@ -58,12 +55,10 @@ Para concluir precisamos ter uma base em jupyter notebook, mas, para esse tutori
 
 Pegamos o “train.csv” por meio do widget File,  conectamos ao modelo de predição Random Forest e linkamos ao test and score. configurando no seguinte workflow
 
-<img src="imgs/workflow.png" width="300">
-//workflow
+<img src="imgs/workflow.png" width="800">
 
 O teste ao invés de feito no “test.csv” será feito no próprio “train.csv” com 70% dos dados para treinar e o restante para testar, assim em test score podemos ver o resultado.
 
-<img src="imgs/score.png" width="300">
-//score
+<img src="imgs/score.png" width="600">
 
 em uma versão mais avançada, feita no notebook jupyter, poderíamos enviar nosso resultado para o kaggle, além de melhorar por meio de mineração de dados e outras técnicas disponíveis nas bibliotecas usada no jupyter. Faremos isso no próximo tutorial.
