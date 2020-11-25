@@ -55,7 +55,7 @@ Para concluir precisamos ter uma base em jupyter notebook, mas, para esse tutori
 
 Pegamos o “train.csv” por meio do widget File,  conectamos ao modelo de predição Random Forest e linkamos ao test and score. configurando no seguinte workflow
 
-<img src="imgs/workflow.png" width="800">
+<img src="imgs/workflow.png" width="400">
 
 O teste ao invés de feito no “test.csv” será feito no próprio “train.csv” com 70% dos dados para treinar e o restante para testar, assim em test score podemos ver o resultado.
 
