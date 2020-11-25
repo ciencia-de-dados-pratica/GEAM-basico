@@ -63,6 +63,7 @@ Pegamos o “train.csv” por meio do widget File,  conectamos ao modelo de pred
 
 O teste ao invés de feito no “test.csv” será feito no próprio “train.csv” com 70% dos dados para treinar e o restante para testar, assim em test score podemos ver o resultado.
 
+<img src="imgs/score.png" width="300">
 //score
 
 em uma versão mais avançada, feita no notebook jupyter, poderíamos enviar nosso resultado para o kaggle, além de melhorar por meio de mineração de dados e outras técnicas disponíveis nas bibliotecas usada no jupyter. Faremos isso no próximo tutorial.
