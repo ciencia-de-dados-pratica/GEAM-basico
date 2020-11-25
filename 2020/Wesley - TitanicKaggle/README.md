@@ -21,7 +21,7 @@ A competição é simples: queremos que você use os dados do passageiro do Tita
 ## Os dados
 Para ver os dados da competição, clique na guia Dados na parte superior da página da competição. Em seguida, role para baixo para encontrar a lista de arquivos.
 
-<img src="imgs/dados.png" width="300">
+<img src="imgs/data.png" width="300">
 //dados
 
 Existem três arquivos nos dados: (1) train.csv, (2) test.csv e (3) gender_submission.csv.
