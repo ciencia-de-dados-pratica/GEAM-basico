@@ -1,4 +1,5 @@
 # Métricas de Classificação
+video tutorial:https://www.youtube.com/watch?v=RfWSjvQxHhI
 
 Neste tutorial falaremos sobre como saber se seu modelo de classificação está bom.
 Para isso utilizamos ferramentas matemáticas, baseada na comparação entre o resultado real e os dados obtidos no treino, que retornam um valor cujo o significado será abordado mais à frente.
