@@ -1,4 +1,5 @@
 # Titanic Kaggle resolvendo problema simples da plataforma com orange
+video aula: https://youtu.be/fK7KB0gZqKQ
 
 ## Apresentando a plataforma Kaggle
 
