@@ -1,4 +1,5 @@
 # Embeddings de documentos
+video tutorial:https://youtu.be/ciIal5IdrO8
 
 Neste tutorial abordaremos de uma forma prática como usar embedding de documentos criando um identificador de notícias falsas.
 
