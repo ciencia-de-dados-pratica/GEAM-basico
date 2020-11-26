@@ -1,4 +1,5 @@
 # Formas de visualização de dados
+video tutorial:https://www.youtube.com/watch?v=r9gLGqw5CQI
 
 Neste tutorial mostraremos os tipos de visualização de dados que o orange proporciona e suas respectivas importâncias e usabilidades.
 
