@@ -1,4 +1,5 @@
 # Principal Component Analysis(PCA) - o que é e aplicações
+video tutorial:https://youtu.be/mIGisQjApbI
 
 PCA, em portugues análise de componentes principais, é um método que tem a finalidade de analisar os dados usados visando sua redução, eliminação de sobreposições e a escolha das formas mais representativa de dados a partir de combinações lineares das variáveis originais.
 
