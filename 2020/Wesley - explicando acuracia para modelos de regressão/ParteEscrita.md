@@ -1,4 +1,5 @@
 ### Avaliação de modelo / Métricas de Regressão
+video tutorial:https://www.youtube.com/watch?v=wQ8_BI5K074
 
 Algo essencial em ciência de dados é saber se seu modelo de predição é bom o suficiente para ser utilizado. Para isso são utilizados cálculos matemáticos baseados na resposta do modelo dada uma determinada entrada.
 À primeira vista os termos parecem algo difícil de compreender mas hôje entenderemos a fundo como isso funciona para modelos de regressão.
