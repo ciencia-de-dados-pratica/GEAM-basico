@@ -1,4 +1,5 @@
 # Análise e predição de ações da bolsa de valores usando o Orange
+video tutorial:https://www.youtube.com/watch?v=gSyczkYxsc8
 
 Nesse tutorial mostraremos como funciona uma predição de valores numéricos, ou seja, um problema de regressão. Para isso usaremos modelos de previsão em um dataset de ações do mercado financeiro mais precisamente, as ações da amazon(AMZN).
 
