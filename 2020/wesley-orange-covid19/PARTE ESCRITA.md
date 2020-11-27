@@ -1,4 +1,6 @@
 # Analize de dados covid-19 utilizando Orange
+video tutorial:https://youtu.be/ZdGzdoKRcxw
+
 Hoje, veremos como colocar dados em Orange, desenhar algumas curvas básicas e relacioná-las com outras fontes de dados.
 
 ### Obtendo os dados
