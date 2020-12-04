@@ -25,7 +25,9 @@ Para executar as transações usaremos 3 comandos basicos.
 ![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno-Transa%C3%A7%C3%B5es/Imagens/Imagem01.png)
 
 **BEGIN** - Da inicio a transação.
+
 **COMMIT** - Finalisa a transação e salva as alterações feitas no Banco de Dados.
+
 **ROLLBACK** - Finalisa a transação desfazendo as alterações feitas no Banco de Dados.
 
 ### Criação da tabela
