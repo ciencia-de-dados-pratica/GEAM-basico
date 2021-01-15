@@ -1,16 +1,11 @@
 # Introdução
-  O Neo4j ́e um banco de dados **NoSQL** (Not Only SQL), no qual não utiliza a linguagem de consultas **SQL** (Standard Query Language), pois esse banco de dados tem sua essência
-    voltada a grafos como esquema de organização e armazenamento, estes grafos contém **nós** e **arestas**, e no ecossistema do Neo4j os *nodes* (nós), são usados para
-    representar as entidades da base de dados gerando uma relação entre si. Junto aos *nodes* existe as *labels* (rotulos), que são utilizadas para moldar o domínio de cada *node*
-    os agrupando em conjuntos conforme sua etiqueta, a etiqueta é definida pela *label*, por exemplo, vários *nodes* contem informações sobre um único usuário, então esses *nodes*
-    serão rotulados com a etiqueta **usuário**. Essa etiqueta ajuda na hora de consultas ou marcação de estados, fazendo um comparação ao modelo relacional, esses **nodes**
-    correspondem aos **index**, que ajudam nas operações do **SGBD** (Sistema de Gereência de Banco de Dados).
+O Neo4j ́e um banco de dados **NoSQL** (Not Only SQL), no qual não utiliza a linguagem de consultas **SQL** (Standard Query Language), pois esse banco de dados tem sua essência voltada a grafos como esquema de organização e armazenamento, estes grafos contém **nós** e **arestas**, e no ecossistema do Neo4j os *nodes* (nós), são usados para representar as entidades da base de dados gerando uma relação entre si. Junto aos *nodes* existe as *labels* (rotulos), que são utilizadas para moldar o domínio de cada *node* os agrupando em conjuntos conforme sua etiqueta, a etiqueta é definida pela *label*, por exemplo, vários *nodes* contem informações sobre um único usuário, então esses *nodes* serão rotulados com a etiqueta **usuário**. Essa etiqueta ajuda na hora de consultas ou marcação de estados, fazendo um comparação ao modelo relacional, esses **nodes** correspondem aos **index**, que ajudam nas operações do **SGBD** (Sistema de Gereência de Banco de Dados).
 
 # Cypher Query Language
  A equipe do Neo4j decidiu criar uma linguagem própria para a operação do **SGBD**, por ser o primeiro nesse
  mundo dos grafos, ainda não existia uma forma de realizar consultas via comando, por isso foi criado **Cypher**,
  essa linguagem é bem intuitiva e fácil de aprender (um dos propósitos dos desenvolvedores).
- ### Exemplos de consultas com Cypher
+ ### Exemplos de comandos com Cypher
  ```
  CREATE (: Pessoa{nome: 'João', idade: 20, estadoCivil: 'Solteiro'})
  ```
@@ -38,9 +33,29 @@ ficaria da seguinte forma:
 MATCH (p.Pessoa {nome: 'João'})
 SET p += {profissao: 'Progamador'}
 ```
-Em um caso de precisar apagar uma propriedade do *node* pode-se usar o seguinte comando, atribuindo apenas *null*
+Em um caso de precisar remover uma propriedade do *node* pode-se usar o seguinte comando, atribuindo apenas *null*
 ao que deseja remover.
 ```
 MATCH (p:Pessoa{nome: 'João'})
 SET p.estadoCivil = null
 ```
+Para excluir um *node* é bem simples, vejamos o exemplo a seguir:
+```
+MATCH (p:Pessoa{nome: 'João'})
+DELETE p
+```
+O comando **DELETE** exclui o *node* atribuído a 'p', assim a pessoa que é João é removida da base de dados. Mas,
+esse comando só funciona caso o *node* não possua relacionamentos. Caso haja relacionamentos, o comando para
+excluir o relacionamento e em seguida o *node* é:
+```
+MATCH (:Pessoa {nome: 'João'})-[a:ADICIONOU}-()
+DELETE a
+```
+Dessa forma os relacionamentos ligados a João que tenham o dado **ADICIONOU** serão excluídos, pois o filtro de *node* está vazio ou seja, é anônimo. Em seguida o *node* João pode ser deletado normalmente, porém, existe também um comando que pode excluir o *node* e seus relacionamentos de uma única vez.
+```
+MATCH (p:Pessoa {nome: 'João})
+DETACH DELETE p
+```
+Ao adicionar **DETACH** a linha de comando, possibilida a exclusão do *node* com todos os relacionamentos atribuídos a ele.
+
+### Exemplos de comandos de consulta
