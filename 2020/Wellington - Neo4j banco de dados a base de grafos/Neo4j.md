@@ -58,4 +58,12 @@ DETACH DELETE p
 ```
 Ao adicionar **DETACH** a linha de comando, possibilida a exclusão do *node* com todos os relacionamentos atribuídos a ele.
 
-### Exemplos de comandos de consulta
+# Modelo de Dados
+A modelagem de dados do Neo4j funciona como um esboço em um quadro branco, assim é possível discutir e entender
+como será criado o banco de dados. Após a ideia estiver mais concretizada, vai ser identificado as conrrespondências dos *nodes* e o formato de relacionamento, tornando o rabisco algo mais formal. Na próxima
+etapa, será adicionado os rótulos a cada propriedade dos *nodes*. Nesse momento é feito uma referência para ver
+se há uma coerência com a ideia no quadro branco, nessa parte o modelo fica mais consolidade e próximo do projeto final.
+E por último, sai o modelo consolidado, o intuito é ser simples e bem visual, para facilitar seu compreendimento
+por qualquer pessoa sem nenhum grande esforço. Segue um exemplo do modelo final, no qual mostra três pessoas que
+são amigas e o que elas gostam em comum.
+![Modelo de Dados Final](https://miro.medium.com/max/875/1*SiIW_VnSNDiawRvuGM3aGA.png)
