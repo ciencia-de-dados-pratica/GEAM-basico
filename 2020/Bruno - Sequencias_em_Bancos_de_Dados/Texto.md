@@ -1,6 +1,6 @@
 # Sequências em Bancos de Dados
 
-Neste tutorial iremos falar sobre as sequências em Bases de dados e mostraremos um exemplo prático de como elas funcionam. [Aqui]() é possível assistir esse tutorial em vídeo no nosso canal do Youtube.
+Neste tutorial iremos falar sobre as sequências em Bases de dados e mostraremos um exemplo prático de como elas funcionam. [Aqui](https://youtu.be/5QZudWoaVuo) é possível assistir esse tutorial em vídeo no nosso canal do Youtube.
 
 Uma seqüência gera uma lista serial de números exclusivos para as colunas das tabelas de um banco de dados. Elas simplificam a programação do aplicativo, gerando automaticamente valores numéricos exclusivos para as linhas de uma ou varias tabelas. Por exemplo, vamos assumir que dois usuários estejam inserindo simultaneamente linhas de novos empregados para a coluna EMP_NO nenhum usuário precisa esperar que o outro insira o próximo número disponível de empregado. A sequência gera automaticamente os valores corretos para cada usuário.
 
