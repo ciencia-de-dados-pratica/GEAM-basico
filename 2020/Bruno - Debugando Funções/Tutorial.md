@@ -1,6 +1,6 @@
 # Debugando Funções em Bancos de Dados
 
-Neste tutorial iremos falar sobre debug de funções em Bases de dados e mostraremos um exemplo prático de como elas funcionam. [Aqui]() é possível assistir esse tutorial em vídeo no nosso canal do Youtube.
+Neste tutorial iremos falar sobre debug de funções em Bases de dados e mostraremos um exemplo prático de como elas funcionam. [Aqui](https://youtu.be/QXIe2JTsskU) é possível assistir esse tutorial em vídeo no nosso canal do Youtube.
 
 O debug (ou debugging) é um processo voltado para identificar e remover qualquer tipo de erro existente no código-fonte de um programa. A partir da análise da estrutura do sistema, os erros de digitação e problemas como funções mal estruturadas podem ser rastreados. Assim, quem está criando a aplicação consegue identificar e corrigir problemas com mais precisão.
 
