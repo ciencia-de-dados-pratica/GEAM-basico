@@ -7,3 +7,19 @@ necessárias no mundo de banco de dados, especialmente por conta do *Big Data*, 
 O site [DB-Engines](https://db-engines.com/en/ranking) relata conteúdos sobre a área de banco de dados, e mostra
 um ranking dos *databases* mais usados atualmente sejam bancos relacionais ou não de acordo com a popularidade dos
 **DBMS** (*Database Management Systems*).
+
+# Bancos de Dados NoSQL
+### MongoDB
+O MongoDB é um banco de dados orientado a documentos ou seja, ele não usa esquema relacional, e sim documentos semelhantes ao formato **JSON** (*Java Script Object Notation*), para armazenar os dados. Esses documentos são
+semelhantes a registros, com campos e valores, o **MongoDB** também suporta esquemas dinâmicos e é um software livre
+e de código aberto, ele também fornece recursos necessários para um ambiente de produção como, balanceamento de
+carga, replicação, indexação, consulta e pode atuar como um sistema de arquivos. Em seguida segue um exemplo
+simples da estrutura do arquivo utilizado pelo **MongoDB**.
+```
+{
+  id: "0bjs324dfb2",
+  nome: "João",
+  idade: 30,
+  profissão: "Progamador"
+}
+```
