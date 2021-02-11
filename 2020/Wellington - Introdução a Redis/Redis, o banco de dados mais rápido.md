@@ -7,7 +7,7 @@ consultar ou gravar dados.
 # A Capacidade do Redis
 O **Redis** agora oferece tempos de resposta menores que milissegundos, permitindo milhões de solicitações por
 segundo para aplicativos em tempo real em Jogos, Ad-Teche, Serviços Financeiros, Assistência Médica e IoT. O 
-Redis é uma opção popular para armazenamento em cahche, gerenciamento de sessões, jogos, tabelas de classificação,
+Redis é uma opção popular para armazenamento em cache, gerenciamento de sessões, jogos, tabelas de classificação,
 análises em tempo real, geoespaciais, veiculação de bate-papo, bate-papo/mensagens, streaming de mídia e aplicativos
 de pub/sub.
 
