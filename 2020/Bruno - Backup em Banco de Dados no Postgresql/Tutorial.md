@@ -20,6 +20,6 @@ Após isso ao passar para a aba de **Dump Options #1** deve-se selecionar os dad
 
 Na aba de **Dump Options #2**, deve-se selecionar as Queries que serão salvas no backup, como é apresentado na imagem abaixo.
 
-1[](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno%20-%20Backup%20em%20Banco%20de%20Dados%20no%20Postgresql/Imagens/Imagem03.png)
+![](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2020/Bruno%20-%20Backup%20em%20Banco%20de%20Dados%20no%20Postgresql/Imagens/Imagem03.png)
 
 Após serem feitas todas as configurações basta clicar em **Backup** que o backup será feito.
