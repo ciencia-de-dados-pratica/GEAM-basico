@@ -24,3 +24,5 @@ Podemos alterar o limiar da regressão logística por meio do atributo Strength 
 O widget ROC Analysis plota uma taxa de verdadeiro positivo em relação a uma taxa de falso positivo de um teste. O eixo X representa a taxa de falso positivo, enquanto o eixo Y representa a taxa de verdadeiro positivo. Em outras palavras, um bom modelo terá a maioria dos pontos no canto superior esquerdo, exatamente como o que temos na figura abaixo.
 
 <img src="imgs/final.png" width="600">
+
+Link video tutorial:https://www.youtube.com/watch?v=9U4knFQuuuQ
