@@ -9,6 +9,12 @@ um ranking dos *databases* mais usados atualmente sejam bancos relacionais ou n�
 **DBMS** (*Database Management Systems*).
 
 # Bancos de Dados NoSQL
+O movimento NoSQL teve sua origem em junho de 2009, para nomear um encontro promovido por Johan Oskarsson e Eric]
+Evans, que teve como objetivo discutir o crescente surgimento de soluções *open source* de armazenamento de dados
+distribuídos não relacionais. Em outubro do mesmo ano, foi realizada a conferência "no:sql(east)", que redefiniu
+o uso do termo NoSQL para descrever soluções de armazenamento de dados não relacionais. Importante entender que
+NoSQL não significa "não ao SQL", mas sim "not only SQL" (não só SQL).
+
 ### MongoDB
 O MongoDB é um banco de dados orientado a documentos ou seja, ele não usa esquema relacional, e sim documentos semelhantes ao formato **JSON** (*Java Script Object Notation*), para armazenar os dados. Esses documentos são
 semelhantes a registros, com campos e valores, o **MongoDB** também suporta esquemas dinâmicos e é um software livre
