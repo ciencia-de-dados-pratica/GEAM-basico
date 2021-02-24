@@ -9,7 +9,7 @@ um ranking dos *databases* mais usados atualmente sejam bancos relacionais ou n�
 **DBMS** (*Database Management Systems*).
 
 # Bancos de Dados NoSQL
-O movimento NoSQL teve sua origem em junho de 2009, para nomear um encontro promovido por Johan Oskarsson e Eric]
+O movimento NoSQL teve sua origem em junho de 2009, para nomear um encontro promovido por Johan Oskarsson e Eric
 Evans, que teve como objetivo discutir o crescente surgimento de soluções *open source* de armazenamento de dados
 distribuídos não relacionais. Em outubro do mesmo ano, foi realizada a conferência "no:sql(east)", que redefiniu
 o uso do termo NoSQL para descrever soluções de armazenamento de dados não relacionais. Importante entender que
