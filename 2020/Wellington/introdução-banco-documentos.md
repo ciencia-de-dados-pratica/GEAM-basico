@@ -1,6 +1,6 @@
 # Introdução a Banco Orientado a Documentos
 ### Introdução
-  * Os bancos orientados a documentso são bancos NoSQL, que são modelos onde o SQL não é utilizado para sua operações como inserção, remoção, atualização entre outras.
+  * Os bancos orientados a documentos são bancos NoSQL, que são modelos onde o SQL não é utilizado de forma principal para suas operações como inserção, remoção, atualização entre outras.
   O modelo orientado a documentos utiliza documentos do tipo JSON para seu armazenamento de dados se tornando mais flexível, semiestruturado e hieráquico. Criando uma
   time line de todos os documentos criados.
 ### MongoDB + Compass
