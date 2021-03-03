@@ -4,7 +4,7 @@
 
 Vamos começar com o conjunto de dados de atrito do widget Datasets. Selecione o Attrition - Train, que é um conjunto de dados sobre quais funcionários pediram demissão da empresa e quais ficaram. A variável de destino é chamada de Atrito, onde não significa que o funcionário ficou e sim que o funcionário pediu demissão. Os outros atributos descrevem o funcionário - sua posição, educação, departamento, anos desde a promoção e assim por diante.
 
-<img src="imgs/table.PNG" width="500">
+<img src="imgs/table.PNG" width="700">
 
 A seguir, construiremos um modelo preditivo de regressão logística simples. Ao inspecionar o modelo em Test and Score, descobrimos que o modelo tem uma AUC de 0,788 e 86% CA. Mas que tipo de modelo é esse? Como ele toma suas decisões?
 
@@ -22,7 +22,7 @@ Vejamos, por exemplo, YearsAtCompany. Como interpretaremos isso? A variável tem
 
 Ótimo, agora entendemos o modelo e estamos prontos para fazer algumas previsões. Vamos carregar o Attrition - Predict com outro widget do Data Sets. Temos três novos funcionários, que são descritos com todas as variáveis anteriores, mas estão sem Atrito - não sabemos quem tem mais probabilidade de sair.
 
-<img src="imgs/table2.png" width="500">
+<img src="imgs/table2.png" width="700">
 
 Agora, ligue o modelo de regressão logística ao conjunto de dados de treino para Explain Predictions. Em seguida, selecione John na tabela e ligue a seleção para  Explain Predictions. O widget requer três entradas: o modelo, os dados de treinamento e a instância que estamos prevendo (John). 
 
