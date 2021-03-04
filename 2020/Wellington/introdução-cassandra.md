@@ -54,3 +54,19 @@ permite que seja definido um fator de replicação para cada *data center* qeu f
 center* e o valor é a quanitdade de réplicas para o mesmo.
 * Replication_factor: indica quantos nós do cluster devem conter uma cópia de cada partição das tabelas deste *keyspace* caso o
 método de replicação seja o **SimpleStrategy**.
+Com o *keyspace* criado, o próximo passo é adicionar tabelas a ele, no exemplo a seguir temos um exemplo na criação de tabela.
+```
+CREATE TABLE "my_keyspace"."contacts" (
+  contact_id uuid,
+  first_name text,
+  last_name text,
+  phone_number text,
+  PRIMARY KEY(contact_id)
+);
+```
+No exemplo vemos a criação de uma tabela com o nome **contacts** dentro do *keyspace* que foi criado anteriormente. Também foi
+definido quatro colunas para a tabela, **contact_id**, que é a chave primária e é do tipo **uuid** *(Universally Unique Identifier)*
+, assegura que os valores dessa coluna serão únicos. As outras colunas são **first_name**, **last_name** e **phone_number**, todas
+do tipo **text**. Como a chave-primária é composta por apenas uma coluna, ela também é uma *partition-key* dessa tabela, o hash
+da *partition-key* é o que define em que partição da tabela as linhas serão armazenadas. É perceptível que se parece bastante
+com o SQL, facilitando ainda mais o seu uso.
