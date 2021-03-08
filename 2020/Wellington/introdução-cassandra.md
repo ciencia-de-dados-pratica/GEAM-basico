@@ -11,7 +11,12 @@ potencial desse banco de dados.
 
 # Arquitetura
 Sua arquitetura é descentralizda, com isso, todos os nós existentes na rede possuem as mesmas funções e capacidades, não há um
-ponto único de falha. Dessa forma sua manutenção se torna fácil por não precisar realizar configurações específicas para cada nó.
+ponto único de falha.
+
+
+<img src="img/cassandra-arquitetura.png" width="350">
+
+Dessa forma sua manutenção se torna fácil por não precisar realizar configurações específicas para cada nó.
 Os nós também não compartilham entre si nenhum tipo de recurso de hardware como disco, processamento ou memória, esse tipo de
 arquitetura evita gargalos no sistema e permite que os nós sejam heterogêneos entre si. Por causa da arquitetura distribuída e
 descentralizada, Cassandra é altamente escalável, principalmente para escalar de forma horizontal (conhecida também como escalabilidade
@@ -22,6 +27,10 @@ Os dados das tabelas do Cassandra passam automaticamente por um processo de part
 tabela que, por padrão, é baseada em chave primária. 
 
 # O Poder do Cassandra
+
+
+<img src="img/cassandra-poder.jpg" width="250">
+
 Para detectar nós com indícios de falha, o Cassandra emprega o *gossip protocol*: de tempos em tempos os nós do cluster
 trocam mensagens entre si, caso algum nó falhe sucessivamente ao responder as mensagens, ele é marcado como um nó
 defeituoso e ações corretivas são disparadas em *background* como replicar os dados que estavam nesse servidor para
