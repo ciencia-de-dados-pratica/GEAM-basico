@@ -1,6 +1,6 @@
 # Introdução
 
-<img src="img/cassandra-logo.png" width="300">
+<img src="img/cassandra-logo.png" width="250">
 
 O **Cassandra** tornou-se *open source* em 2008 e em 2009 começou a ser mantido pela **Apache Foundatioin**, inicialmente
 desenvolvido pelo Facebook para ser utilizado no motor de busca na caixa de mensagens. O modelo de distribuição é baseado
