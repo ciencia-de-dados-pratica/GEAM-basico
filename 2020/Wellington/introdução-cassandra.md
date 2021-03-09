@@ -10,14 +10,13 @@ grandes vantagens em trabalhar com ele utilizando apenas uma máquina. Ao utiliz
 potencial desse banco de dados.
 
 # Arquitetura
-Sua arquitetura é descentralizda, com isso, todos os nós existentes na rede possuem as mesmas funções e capacidades, não há um
-ponto único de falha.
+Sua arquitetura é descentralizada, com isso, todos os nós existentes na rede possuem as mesmas funções e capacidades, não há um ponto único de falha.
 
 
 <img src="img/cassandra-arquitetura.png" width="350">
 
 Dessa forma sua manutenção se torna fácil por não precisar realizar configurações específicas para cada nó.
-Os nós também não compartilham entre si nenhum tipo de recurso de hardware como disco, processamento ou memória, esse tipo de
+Os nós não compartilham entre si nenhum tipo de recurso de hardware como disco, processamento ou memória, esse tipo de
 arquitetura evita gargalos no sistema e permite que os nós sejam heterogêneos entre si. Por causa da arquitetura distribuída e
 descentralizada, Cassandra é altamente escalável, principalmente para escalar de forma horizontal (conhecida também como escalabilidade
 elástica). Se necessário mais performance para o banco de dados, basta adicionar mais nós na rede, descartando a ação de substituir
@@ -41,12 +40,12 @@ desatualizado.
 pode-se informar que os dados devem ser imediatamente replicados entre os nós responsáveis (o que é chamado de consistência
 forte ou consistência imediata), ou, se a informação não é crítica, pode-se instruir que os dados sejam replicados aos poucos,
 conforme a disponilidade do cluster (modo chamado de consistência fraca ou consistência eventual). Esse níveis de consistência
-também são aplicáveis ao efetuar comandos de leitura. É importante ter em mente que quanto mais forte o níveo de consistência,
+também são aplicáveis ao efetuar comandos de leitura. É importante ter em mente que quanto mais forte o nível de consistência,
 mais oneroso é para o sistema e maior a latência ao executar os comandos.
 
 # A linguagem CQL
 A linguagem CQL *(Cassandra Query Language)* é utilizada para as operações do Cassandra. Sua vantagem é que suas sintaxes
-sao parecidas com as do SQL, facilitando o uso de quem já utiliza bases de dados relacionais. Como no SQL, os comandos no CQL
+são parecidas com as do SQL, facilitando o uso de quem já utiliza bases de dados relacionais. Como no SQL, os comandos no CQL
 são dividios em três categorias básicas, sendo comando para:
 * Definição das estruturas de dados; 
 * Manipulação dos dados;
@@ -62,7 +61,7 @@ como será tratado a replicação dos dados por meio do parâmetro **replication
 * Class: indica qual o método de replicação será utilizado para distribuir as réplicas das partições, podendo ser **SimpleStrategy**,
 que é um método padrão, assumindo que o cluster é composto de um único *data center* e irá criar um número de réplicas de
 cada partição das tabelas desse *keyspace* igual ao valor especificado no parâmetro **replication_factor**; O **NetworkTopogyStrategy**,
-permite que seja definido um fator de replicação para cada *data center* qeu faz parte do cluster, nesse caso, o parâmetro **replication_factor** não é utilizado, sendo necessáiro passar um conjunto de chaves e valores em que a chave é o nome do *data
+permite que seja definido um fator de replicação para cada *data center* que faz parte do cluster, nesse caso, o parâmetro **replication_factor** não é utilizado, sendo necessáiro passar um conjunto de chaves e valores em que a chave é o nome do *data
 center* e o valor é a quanitdade de réplicas para o mesmo.
 * Replication_factor: indica quantos nós do cluster devem conter uma cópia de cada partição das tabelas deste *keyspace* caso o
 método de replicação seja o **SimpleStrategy**.
