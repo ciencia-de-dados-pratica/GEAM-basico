@@ -35,3 +35,41 @@ busca for feita, ela sera realizada sobre o índice invertido ao invés de vascu
 procurando pelos termos buscados. Por causa dessa funcionalidade, o Elasticsearch é um motor de busca em semmi-tempo-real.
 
 # Comandos no Elasticsearch
+Como o Elastcsearch disponibiliza uma API REST para sua utilização, de forma padrão ela rebebe métodos
+HTTP: (GET, POST, PUT e DELETE), as requisições funcionam pro meio do envio de objetos JSON.
+
+Uma requisição segue a seguinte estrutura:
+```
+METODO_HTTP endereco_da_api:porta/indice/tipo_documento
+```
+
+No exemplo a seguir, é mostrado a indexação de um documento através de uma requisição do tipo POST
+para a API.
+
+<img src="elasticsearch-post.png" width="250">
+
+Nessa representação acima, onde é enviado uma requisição HTTP do verbo POST ao *endpoint* da API
+local do Elasticsearch. Essa operação também pode ser feita através de uma ferramenta como o
+[Postman](https://www.postman.com/) ou o [Insomnia](https://insomnia.rest/). O objeto JSON contém
+o corpo da requisição que informa os dados que serão indexados como um documento no Elasticsearch.
+
+Em seguida é mostrado a forma mais comum de realizar buscas no Elasticsearch que são as querie, além
+de encontrar todos os documentos que possuam o termo buscado, ordena-os por relevância com base em
+um cálculo interno.
+
+<img src="elasticsearch-get.png" width="250">
+
+No exemplo acima, foi iniciado a abertura de uma query JSON, ela foi definida com a tarefa de realizar
+a combinação entre o termo buscado (match) e os termos dos documentos, também é definido o que
+está sendo buscando que é um documento que tenha o campo `cargo` com valor igual a `Joao`.
+
+# Conclusão
+Vemos a mágica proporção de eficiência do Elasticsearch, ele em si não é uma base dados, mas uma
+mecanismo de busca que atua em cima de uma base de dados, onde foi citado o Kibama.
+
+Empresas que utilizam a ferramenta:
+  * Audi
+  * Adobe
+  * Lenovo
+  * Walmart
+  * Kroger
