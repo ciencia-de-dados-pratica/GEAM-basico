@@ -53,7 +53,7 @@ local do Elasticsearch. Essa operação também pode ser feita através de uma f
 [Postman](https://www.postman.com/) ou o [Insomnia](https://insomnia.rest/). O objeto JSON contém
 o corpo da requisição que informa os dados que serão indexados como um documento no Elasticsearch.
 
-Em seguida é mostrado a forma mais comum de realizar buscas no Elasticsearch que são as querie, além
+Em seguida é mostrado a forma mais comum de realizar buscas no Elasticsearch que são as queries, além
 de encontrar todos os documentos que possuam o termo buscado, ordena-os por relevância com base em
 um cálculo interno.
 
