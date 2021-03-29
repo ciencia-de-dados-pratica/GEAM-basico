@@ -46,7 +46,7 @@ METODO_HTTP endereco_da_api:porta/indice/tipo_documento
 No exemplo a seguir, é mostrado a indexação de um documento através de uma requisição do tipo POST
 para a API.
 
-<img src="img/elasticsearch-post.png" width="250">
+<img src="img/elasticsearch-post.png" width="500">
 
 Nessa representação acima, onde é enviado uma requisição HTTP do verbo POST ao *endpoint* da API
 local do Elasticsearch. Essa operação também pode ser feita através de uma ferramenta como o
@@ -57,7 +57,7 @@ Em seguida é mostrado a forma mais comum de realizar buscas no Elasticsearch qu
 de encontrar todos os documentos que possuam o termo buscado, ordena-os por relevância com base em
 um cálculo interno.
 
-<img src="img/elasticsearch-get.png" width="250">
+<img src="img/elasticsearch-get.png" width="500">
 
 No exemplo acima, foi iniciado a abertura de uma query JSON, ela foi definida com a tarefa de realizar
 a combinação entre o termo buscado (match) e os termos dos documentos, também é definido o que
