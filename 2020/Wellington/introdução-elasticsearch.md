@@ -32,7 +32,7 @@ O Elasticsearch realiza buscar por índice invertido, com isso, o Elasticsearch 
 os termos em *tokens*. Em seguida é feito uma medição para definir quais *tokens* são relevantes, o próximo
 passo é organizar os tokens em um índice e informar a cada token quais documentos ele contém. Agora quando uma
 busca for feita, ela sera realizada sobre o índice invertido ao invés de vasculhar cada documento individualmente,
-procurando pelos termos buscados. Por causa dessa funcionalidade, o Elasticsearch é um motor de busca em semmi-tempo-real.
+procurando pelos termos buscados. Por causa dessa funcionalidade, o Elasticsearch é um motor de busca em semi-tempo-real.
 
 # Comandos no Elasticsearch
 Como o Elastcsearch disponibiliza uma API REST para sua utilização, de forma padrão ela rebebe métodos
