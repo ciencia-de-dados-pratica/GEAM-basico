@@ -65,7 +65,8 @@ está sendo buscando que é um documento que tenha o campo `cargo` com valor igu
 
 # Conclusão
 Vemos a mágica proporção de eficiência do Elasticsearch, ele em si não é uma base dados, mas uma
-mecanismo de busca que atua em cima de uma base de dados, onde foi citado o Kibama.
+mecanismo de busca que atua em cima de um Sistema de Gerenciamento de Banco de
+Dados (SGBD), e sozinho não é um banco de dados, por isso foi citado o Kibama.
 
 Empresas que utilizam a ferramenta:
   * Audi
