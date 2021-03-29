@@ -24,7 +24,7 @@ todas as operações permitidas pelos índices abertos. Dessa forma, não é pos
 documentos em um índice fechado. Para reabrir índices fechados, basta usar a API de índice aberto, se a solicitação
 for direcionada a um fluxo de dados, a solicitação reabrirá qualquer um dos índices de apoio que estejam fechados.
 
-# Porque usar Elasticsearch
+# Por que usar Elasticsearch?
 
 <img src="img/pq.jpg" width="250">
 
