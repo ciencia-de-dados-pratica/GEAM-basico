@@ -4,7 +4,7 @@
 
 O **Elastcsearch** é um software *open source*, poderoso para realizar buscar e analisar dados em grandes
 volumes de dados, ele permite indexar e realizar buscas no documentos quase em tempo real para todos
-os tipos de dados. Ele possui uma interface RESTful e é capaz de solucionar um número crescente de casos de uso. Existe a Elastc
+os tipos de dados. Ele possui uma interface RESTful e é capaz de solucionar um número crescente de casos de uso. Existe a Elastic
 Stack, na qual contém ferramentas como o **Logstash** e **Beats** que facilitam a coleta, a agregação e o
 enriquecimento dos dados armazenados no Elasticsearch. Outra ferramenta desse conjunto é o **Kibama** que
 permite a expliração, vizualização e compartilhamento dos dados de forma interativa, de forma que contribua
