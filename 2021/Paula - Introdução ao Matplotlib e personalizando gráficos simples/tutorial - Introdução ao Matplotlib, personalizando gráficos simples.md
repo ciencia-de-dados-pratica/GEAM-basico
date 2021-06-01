@@ -1,4 +1,4 @@
-# _Introdução ao Matplotlib, personalizando gráficos simples._
+# _Introdução ao Matplotlib, personalização simples de gráficos._
 
 As bibliotecas como o Pandas e Seaborn, possuem métodos de visualização de dados que partem da biblioteca Matplotlib, por isso há a importância do seu estudo, pois a Matplotlib possui recursos para a geração de gráficos 2D a partir de arrays. Seus gráficos são muito usados em Python nas áreas de processamento de imagem, processamento de sinal, aprendizado de máquina, pesquisa acadêmica, etc. O Matplotlib disponibiliza esses gráficos com alta qualidade e em diversos formatos, também permite sua personalização através da escolha do gráfico, escolha de marcadores, cores, criação de rótulos, textos, manipulação de dados, etc.
 
