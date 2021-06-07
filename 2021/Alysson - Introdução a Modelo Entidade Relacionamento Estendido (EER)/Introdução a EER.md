@@ -92,7 +92,7 @@ Em uma generalização/especialização exclusiva, a especialização de uma oco
 ### **Especialização Compartilhada (c) ou Não Exclusiva**
 Quando usamos a generalização/especialização Compartilhada, pode ocorrer que uma ocorrência da entidade genérica apareça várias vezes de suas entidades especializadas. A simbologia para essa descrição é o "c". Assim como na Especialização Total, o "c" pode não aparecer, mas colocarei aqui para ficar visívelmente melhor.
 
-![Exemplo4](imagens/Exemplo4.jpg)
+![Exemplo4w](imagens/Exemplo4.jpg)
 
 
 <br>
