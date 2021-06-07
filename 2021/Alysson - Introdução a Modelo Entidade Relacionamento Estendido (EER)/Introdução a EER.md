@@ -69,7 +69,7 @@ Na generalização/especialização total, cada vez que dá uma ocorrência da e
 associada a uma ocorrência de uma de suas entidades especializadas. Esse tipo de especialização/generalização é simbolizado por um "t"ao lado do triângulo que representa a
 generalização/especialização entre as entidades. Normalmente, o "t" não aparece ao lado do triângulo, porém nesse exemplo abaixo irá aparecer como forma de visualizar e entender de forma melhor:
 
-![Exemplo2](imagens/Exemplo2.png)
+![Exemplo2](Imagens/Exemplo2.png)
 
 O "t" serve como forma de destacar que para todo Cliente, ou ele é uma Pessoa Física ou Pessoa Jurídica.
 
@@ -80,7 +80,7 @@ O "t" serve como forma de destacar que para todo Cliente, ou ele é uma Pessoa F
 
 Na Parcial, nem toda ocorrência da entidade genérica (ou superclasse) vai possuir um ocorrência vinda de uma das suas entidades especializadas (ou subclasse)z e o símbolo que representa isso é o "p". Na figura abaixo mostra o mesmo exemplo acima porém sendo parcial.
 
-![Exemplo3](imagens/Exemplo3.png)
+![Exemplo3](Imagens/Exemplo3.png)
 *Aqui é necessário ter um atributo que indique qual tipo o professor é na entidade genérica, já que estamos tratando de uma especialização parcial. Também é mostrado que nem todo Professor é Titular ou Adjunto.
 
 
@@ -91,7 +91,7 @@ Em uma generalização/especialização exclusiva, a especialização de uma oco
 ### **Especialização Compartilhada (c) ou Não Exclusiva**
 Quando usamos a generalização/especialização Compartilhada, pode ocorrer que uma ocorrência da entidade genérica apareça várias vezes de suas entidades especializadas. A simbologia para essa descrição é o "c". Assim como na Especialização Total, o "c" pode não aparecer, mas colocarei aqui para ficar visívelmente melhor.
 
-![Exemplo4](imagens/Exemplo4.png)
+![Exemplo4](Imagens/Exemplo4.png)
 
 
 <br>
@@ -108,7 +108,7 @@ Para finalizar, vamos falar sobre Entidade associativa. Basicamente, uma Entidad
 relacionamento. 
 
 
-![exemplo5](imagens/Exemplo5.png)
+![exemplo5](Imagens/Exemplo5.png)
 
 
 <br>
@@ -122,7 +122,9 @@ Aqui encerra o texto, como foi uma breve introdução a EER, foi tão detalhado 
 <br>
 
 Referências:
-- Modelagem de Banco de Dados, de Paulo Henrique Cayres Todos os direitos reservados à RNP-Escola Superior de Redes.
+- Modelagem de Banco de Dados, de Paulo Henrique Cayres 
+
+-- Todos os direitos reservados à RNP-Escola Superior de Redes.
 
 - Aula do professor Cláudio Campelo:
 https://www.youtube.com/watch?v=l33uVBJVyFs&t=1833s
