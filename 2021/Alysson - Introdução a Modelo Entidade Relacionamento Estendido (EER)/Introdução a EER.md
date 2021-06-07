@@ -46,7 +46,7 @@ O EER trabalha com os seguintes conceitos:
 
 No conceito de Generalização/especialização, é usado as características da Herança, onde uma ou mais entidades especializadas (também chamada de subclasses ou entidade de nível infeiror), herdam os atributos de uma entidade genérica (também chamada de superclasse ou entidade de nível superior), além dos seus próprios atributos que as entidades especializadas possuem. Vale ser ressaltado que a entidade genérica deve ser a entidade raiz da árvore feita da Generalização/especialização. Na figura abaixo, temos um exemplo clássico usado para demonstrar este conceito:
 
-![alt](imagens/Exemplo1.png)
+![alt](Imagens/Exemplo1.png)
 
 
 Como podemos ver no exemplo acima, a entidade especializada Pessoa Física contém, além do seu atributo CPF, todos os atributos que são herdados da entidade genérica Cliente, onde são eles o ID_Cliente, Nome, Sobrenome, Email, Telefone e o atributo multivalorado Endereco.
