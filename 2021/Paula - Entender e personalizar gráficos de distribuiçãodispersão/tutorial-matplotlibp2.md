@@ -1,4 +1,4 @@
-# _Entender e personalizanr gráficos de distribuição/dispersão._
+# _Entender e personalizar gráficos de distribuição/dispersão._
 
 No final do tutorial passado, vimos resumidamente tipos de gráficos de distribuição sendo eles: gráfico de barras, diagrama de caixa e gráfico de dispersão. Se você não viu esse tutorial, [clique aqui](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2021/Paula%20-%20Introdu%C3%A7%C3%A3o%20ao%20Matplotlib%20e%20personalizando%20gr%C3%A1ficos%20simples/tutorial%20-%20Introdu%C3%A7%C3%A3o%20ao%20Matplotlib%2C%20personalizando%20gr%C3%A1ficos%20simples.md). Agora, vamos aprofundar o nosso conhecimento sobre esses gráficos.
 
