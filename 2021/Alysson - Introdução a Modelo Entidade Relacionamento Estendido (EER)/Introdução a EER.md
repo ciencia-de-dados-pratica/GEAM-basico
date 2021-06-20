@@ -105,7 +105,7 @@ Quando usamos a generalização/especialização Compartilhada, pode ocorrer que
 
 Para finalizar, vamos falar sobre Entidade associativa. Basicamente, uma Entidade associativa é uma ré-estruturação de um determinado relacionamento, no qual ele será tratado como se fosse uma entidade. O uso da Entidade associativa vai depender muito da necessidade, de acordo com sua visão, de resolver ou evitar problemas no sistema no momento de seu desenvolvimento e admnistração.
 
-*Poderíamos usar um atributo um atributo multivalorado no
+*Poderíamos usar um atributo multivalorado no
 relacionamento. 
 
 
