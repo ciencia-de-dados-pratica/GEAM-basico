@@ -81,6 +81,7 @@ O "t" serve como forma de destacar que para todo Cliente, ou ele é uma Pessoa F
 Na Parcial, nem toda ocorrência da entidade genérica (ou superclasse) vai possuir um ocorrência vinda de uma das suas entidades especializadas (ou subclasse)z e o símbolo que representa isso é o "p". Na figura abaixo mostra o mesmo exemplo acima porém sendo parcial.
 
 ![Exemplo3](Imagens/Exemplo3.png)
+
 *Aqui é necessário ter um atributo que indique qual tipo o professor é na entidade genérica, já que estamos tratando de uma especialização parcial. Também é mostrado que nem todo Professor é Titular ou Adjunto.
 
 
