@@ -123,4 +123,7 @@ plt.show()
 https://panda.ime.usp.br/algoritmos/static/algoritmos/10-matplotlib.html#:~:text=O%20matplotlib%20%C3%A9%20uma%20biblioteca,2D%20a%20partir%20de%20arrays.&text=O%20matplotlib%20pode%20ser%20conceitualmente,de%20c%C3%B3digo%20similar%20ao%20MATLAB.
 https://operdata.com.br/blog/como-interpretar-um-boxplot/#:~:text=O%20boxplot%20nos%20fornece%20uma,a%20mediana%20ou%20segundo%20quartil).
 
+#### Para acessar o material em vídeo:
+[Introdução ao Matplotlib, personalização simples de gráficos.](https://www.youtube.com/watch?v=Bv0fMkLUtZM&t=21s)
+
 
