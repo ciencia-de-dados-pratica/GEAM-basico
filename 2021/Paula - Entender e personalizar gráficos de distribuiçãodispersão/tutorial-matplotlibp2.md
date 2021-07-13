@@ -252,3 +252,9 @@ plt.show()
 [Parâmetros, boxplot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html?highlight=boxplot#matplotlib.pyplot.boxplot)
 
 [Exemplo, boxplot](https://matplotlib.org/stable/gallery/statistics/boxplot_color.html#sphx-glr-gallery-statistics-boxplot-color-py)
+
+
+
+#### Para acessar o material em vídeo:
+[Entendendo e personalizando gráficos de barras e de dispersão](https://www.youtube.com/watch?v=68ohXG_1nT0) <br>
+[Entendendo e personalizando gráficos de caixa](https://www.youtube.com/watch?v=5WJGXKbeqb4)
