@@ -228,3 +228,9 @@ Você colocar o link que redireciona para o canal do youtube, configura uma mens
 <br>
 
 Isso encerra o tutorial básico de configurações iniciais que podemos fazer com a bot Loritta! Existem diversas funcionalidades incríveis que podemos fazer com ela, mas aqui é mais uma iniciação ao uso dela. Também temos a versão premium dela, onde traz mais funcionalidades no qual pode melhorar muito o seu servidor do discord de acordo com as ideias que os moderadores e administradores usam como regras, eventos, brincadeiras, entre outros.
+
+<br>
+<br>
+<br>
+
+Link do vídeo: https://youtu.be/cxN6VQ0qElM
