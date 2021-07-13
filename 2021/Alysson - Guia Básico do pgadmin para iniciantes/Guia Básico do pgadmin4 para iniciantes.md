@@ -171,3 +171,11 @@ Para concluir o guia, vou mostrar como criar um modelo entidade relacionamento d
 MER:
 
 ![alt](imagens/merfinal.png)
+
+
+<br>
+<br>
+<br>
+
+Link do vídeo sobre a instalação: https://youtu.be/f1J_iiNLp_M
+Link do vídeo sobre dicas iniciais: https://youtu.be/oilARCECtAg
