@@ -68,13 +68,17 @@ public class conectar {
     private static String localBD = "localhost";
 
     // Aqui são os LINKS responsáveis pelo local onde o BD estar. é modificável de acordo com suas necessidades
-    private static String LINK1 = "jdbc:mysql://"+localBD+":3306/bdtesteo";
+    private static String LINK1 = "jdbc:mysql://"+localBD+":3306/coloque o nome do bd";
     private static String LINK2 = "jdbc:postgresql://localhost:5432/coloque o nome do bd";
-
+    
+    // tem essas alternativas do formato do link caso vc queira usar.
+    //private static String LINK1 = "jdbc:mysql://localhost:3306/coloque o nome do bd";
+    //private static String LINK2 = "jdbc:postgresql://"+localBD+":5432/coloque o nome do bd";
+    
     // Nome do usuário e senha com permissão de acesso ao BD. Você coloque de acordo com o
     // usuário e senha pertencente ao Banco de Dados
-    private static final String usuario = "root";
-    private static final String senha = "123456!@";
+    private static final String usuario = "";
+    private static final String senha = "";
 
 
 
