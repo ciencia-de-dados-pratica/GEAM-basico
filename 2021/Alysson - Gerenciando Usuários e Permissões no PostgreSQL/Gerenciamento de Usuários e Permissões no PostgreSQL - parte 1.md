@@ -5,7 +5,7 @@
 <br>
 <br>
 
-### Neste texto, vamos trabalhar com o gerenciamento dos usuários e seus privilégios no Banco de dados PostgreSQL.
+### Neste texto, vamos trabalhar com o gerenciamento dos usuários e seus privilégios no Banco de dados PostgreSQL. A princípio vamos ver o básico da construção dos Usuários, grupos (GROUP), papéis/funções (ROLE).
 
 
 [Criando um Usuário no Banco de Dados](#Criando-um-Usuário-no-Banco-de-Dados) 
