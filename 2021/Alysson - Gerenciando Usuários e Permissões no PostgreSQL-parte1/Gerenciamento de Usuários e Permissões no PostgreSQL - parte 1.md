@@ -339,7 +339,7 @@ A ROLE cláusula lista uma ou mais funções existentes que são adicionadas aut
 <br>
 
 - ### ADMIN role_name
-  - A ADMINcláusula é semelhante ROLE, mas as funções nomeadas são adicionadas à nova função WITH ADMIN OPTION, dando-lhes o direito de conceder a participação nessa função a outras pessoas.
+  - A ADMIN cláusula é semelhante ROLE, mas as funções nomeadas são adicionadas à nova função WITH ADMIN OPTION, dando-lhes o direito de conceder a participação nessa função a outras pessoas.
 
 
 <br>
@@ -360,6 +360,45 @@ A ROLE cláusula lista uma ou mais funções existentes que são adicionadas aut
 <br>
 <br>
 <br>
+
+
+
+**OBS: Devemos ter cuidado em relação aos privilégios do CREATEROLE. Não existe o conceito de herança para os privilégios do papel com CREATEROLE. Isso quer dizer que que o papel mesmo que não possua um determinado privilégio, mas tenha permissão para criar outros papéis, ele poderá facilmente criar um novo papel com privilégios diferentes do próprio papel (exceto criar papéis com privilégio de super-usuário).**
+
+<br>
+<br>
+
+Exemplo de create ROLE:
+
+```sql
+CREATE ROLE admin21 with 
+SUPERUSER
+CREATEDB
+CREATEROLE
+PASSWORD 'sfj21nm2a';
+```
+
+<br>
+<br>
+<br>
+
+## Remover um role
+
+<br>
+
+```sql 
+DROP ROLE admin21
+```
+
+<br>
+<br>
+<br>
+
+```sql
+ALTER ROLE admin with 
+NOSUPERUSER
+NOCREATEDB;
+```
 
 Em breve a parte 2:
 
