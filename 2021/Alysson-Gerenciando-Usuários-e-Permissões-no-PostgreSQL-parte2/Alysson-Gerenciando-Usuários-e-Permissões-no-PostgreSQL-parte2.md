@@ -212,5 +212,10 @@ CREATE ROLE estagiario
 
 Antes de dar a permissão de execução para os grupos assistente_admin, gerente_admin e estagiário, deve-se revogar o direito de qualquer usuário do banco executar tais funções.
 
+<br>
+<br>
 
-O assistente_admin 
+
+- O assistente_admin pode fazer o cadastro dos alunos nas aulas.
+- O gerente_admin tem acesso total a tudo dentro do banco de dados.
+- O estagiario só irá possuir acesso a algumas coisas dentro do banco de dados, como algumas com dados limitados
