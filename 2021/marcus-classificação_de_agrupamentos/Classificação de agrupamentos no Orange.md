@@ -27,6 +27,7 @@ Logo, podemos usar o widget de visualização **Scatter  Plot** e podemos ver o 
 ![enter image description here](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2021/marcus-classifica%C3%A7%C3%A3o_de_agrupamentos/img/05.png?raw=true)
 
 Mas iremos focar na coluna **Cluster**, pois ela será nossa variável **target** (alvo). Porém, por padrão, as colunas adicionadas pelo **k-Means** são colunas do tipo **Meta**. Para tornarmos a coluna **Cluster** em nossa variável **target** usaremos o widget **Select Columns**. Para definir a variável **target**, devemos arrastar **Cluster** de **Metas** para **Target**.
+
 ![enter image description here](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2021/marcus-classifica%C3%A7%C3%A3o_de_agrupamentos/img/06.png?raw=true)
 
 # Fazendo a Classificação
@@ -39,9 +40,11 @@ Após isso, ligaremos o **Data Sampler** a duas **Data Table**, nomeados de **Tr
 E iremos editar os links para que fiquem da seguinte forma:
 
 **Para Train Table**
+
 ![enter image description here](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2021/marcus-classifica%C3%A7%C3%A3o_de_agrupamentos/img/08.png?raw=true)
 
 **Para Test Table**
+
 ![enter image description here](https://github.com/ciencia-de-dados-pratica/GEAM-basico/blob/master/2021/marcus-classifica%C3%A7%C3%A3o_de_agrupamentos/img/09.png?raw=true)
 
 Feito isso, nosso workflow está com essa aparência até agora:
