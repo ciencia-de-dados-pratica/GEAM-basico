@@ -44,6 +44,9 @@ Para finalizar vamos visualizar o *Scatter Plot* após a aplicação do domínio
 
 É gritante a diferença do gráfico sem e com o *Apply Domain*, podemos ver que agora ficou mais fácil de fazer uma leitura desse gráfico. leitura desse gráfico.
 
+## Link do Video
+<a href="https://youtu.be/WJ7ygNxTud4" target="_blank">Análise de Componentes Principais e Aplicação de Domínio no Orange</a>
+
 ## Referências
 <a href="https://orangedatamining.com/blog/2021/2021-08-13-apply-domain/" target="_blank">Orange Data Mining - Why You Should Use Apply Domain</a><br>
 <a href="https://orangedatamining.com/widget-catalog/unsupervised/PCA/" target="_blank">Orange Data Mining -PCA</a><br>
