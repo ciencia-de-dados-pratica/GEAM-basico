@@ -1,4 +1,10 @@
+Data da publicação: 28/09/2021<br>
+Tutorial escrito por Paula Luana Oliveira da Silva, graduanda em Ciência da Computação pela Universidade Federal do Ceará - Campus Quixadá.
+
 # Introdução a Redes Neurais Recorrentes
+
+
+[Assista o vídeo desse tutorial](https://youtu.be/Apgi1WQxNhM)
 
 Antes de entendermos do que se trata as Redes Neurais Recorrentes, vamos contextualizar os tipos de problemas que elas resolvem. Depois disso, entederemos o que elas são e como funcionam. Mas daqui para frente vamos nos referir as Redes Neurais Recorrentes como RNN, já que sua tradução para o inglês é *Recurring Neural Networks*.
 
@@ -44,6 +50,10 @@ Repare que na Figura 3 que temos um loop mais explícito no nosso grafo. Nas Red
 <img src="img/fig3.png" width="500" height="350" /><br>
 Figura 3 - A estrutura resumida de uma Rede Neural
 </center>
+
+Vamos finalizar por aqui, a ideia é que esse tutorial seja o mais simples possível para que sua comprenssão seja possível. Em breve estaremos resolvendo problemas com redes neurais recorrentes e você vai poder ver como são as RNN em código Python. Obrigada por ler até aqui! Até a próxima!
+
+[Assista o vídeo desse tutorial](https://youtu.be/Apgi1WQxNhM)
 
 
 ## Referências
