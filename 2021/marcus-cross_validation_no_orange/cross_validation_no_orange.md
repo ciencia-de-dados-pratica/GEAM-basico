@@ -19,6 +19,8 @@ Agora podemos ligar os *widgets Test & Score* e *Confusion Matrix*. O *Confusion
 
 Como era esperado, o que obteve a maior taxa de acertos foi o *Logistic Regression*, logo seria o mais indicado dos três a ser usado em seu workflow.
 
+Link do vídeo no Youtube: <a href="https://youtu.be/-Dyzik9lMEU">Cross validation no Orange</a>
+
 ## Referência
 - <a href="https://orangedatamining.com">Orange Data Mining - Data Mining</a>
 
