@@ -37,6 +37,8 @@ Por fim, podemos visualizar os dados com os *widgets data table e box plot*. Val
 
 ![09](https://i.imgur.com/eLmmnkT.png)
 
+## Link do vídeo
+- <a href="https://youtu.be/1Nl5wzlaXck">Youtube - Agrupamento Hierárquico no Orange</a>
 
 ## Referência
 - <a href="https://orangedatamining.com">Orange Data Mining - Data Mining</a>
