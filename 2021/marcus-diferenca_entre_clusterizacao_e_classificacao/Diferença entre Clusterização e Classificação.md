@@ -56,7 +56,7 @@ Ademais, temos o *Scatter Plot* dos resultados, e podemos afirmar que está bem 
 
 ## Conclusão
 
-Por fim, podemos concluir que as grandes diferenças entre a classificação e a clusterização é que um é um modelo de aprendizado supervisionado e o outro não, além disso, a clusterização não necessita de dados de treino como a classificação e também não precisa de variáveis rotuladas. Logo, em uma situação que só tivéssemos um conjunto de dados que não possua nenhum rótulo, podemos usar a clusterização para criar esses rótulos. Porém, no caso de já possuirmos uma base de dados rotulada, podemos usar a classificação. Há também a possibilidade de usar ambos os métodos em conjunto, usando a clusterização para rotular os dados e usar esses dados como base de treino para futuros testes.
+Por fim, podemos concluir que as grandes diferenças entre a classificação e a clusterização é que um é um modelo de aprendizado supervisionado e o outro um modelo de aprendizado não supervisionado, além disso, a clusterização não necessita de uma etapa de treino como a classificação e também não precisa de variáveis rotuladas. Logo, em uma situação que só tivéssemos um conjunto de dados que não possua nenhum rótulo, podemos usar a clusterização para criar esses rótulos. Porém, no caso de já possuirmos uma base de dados rotulada, podemos usar a classificação. Há também a possibilidade de usar ambos os métodos em conjunto, usando a clusterização para rotular os dados e usar esses dados como base de treino para futuros testes, damos a essa combinação dos dois métodos o nome de prendizado de máquina semi-supervisionado.
 
 ## Referência
 - <a href="https://orangedatamining.com">Orange Data Mining - Data Mining</a>
