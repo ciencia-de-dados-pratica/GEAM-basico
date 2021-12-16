@@ -34,6 +34,11 @@ Por fim, podemos ver a predição da idade do *Random Forest* e do *Linear Regre
 
 ![07](https://i.imgur.com/rG6g3GW.png)
 
+
+
+## Video
+- <a href="https://youtu.be/kNuqJePeIE8">Predizendo a idade de um abalone</a>
+
 ## Referências
 - <a href="https://orangedatamining.com">Orange Data Mining - Data Mining</a>
 - <a href="https://archive.ics.uci.edu/ml/datasets/abalone">UCI Machine Learning Repository - Abalone Dataset</a>
