@@ -1,6 +1,6 @@
 ﻿# Ranqueamento de atributos
 
-Em alguns momentos quando queremos fazer uma predição, pode acontecer dos resultados serem muito precisos mesmo que não devessem, isso pode ocorrer caso ele já possua a resposta, ou seja, o algoritmo utiliza apenas um ou dois atributos que descartam os demais. Para resolver isso podemos fazer um ranqueamento da relevância desses atributos.
+Em certos momentos quando queremos fazer uma predição, pode acontecer dos resultados serem muito precisos mesmo que não devessem, isso pode ocorrer caso ele já possua a resposta, ou seja, o algoritmo utiliza apenas um ou dois atributos que descartam os demais. Para demonstrar irei fazer um ranqueamento da relevância desses atributos.
 
 ## Sobre o Dataset
 
