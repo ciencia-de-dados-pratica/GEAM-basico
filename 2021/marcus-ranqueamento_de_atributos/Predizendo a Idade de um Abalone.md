@@ -57,6 +57,10 @@ Para vermos a mudança na taxa de erro irei adicionar o *widget Test and Score*
 
 Neste texto foi apresentado apenas uma das formas de se usar o *widget Rank*, mas ele é uma ferramenta poderosa que pode ser utilizado de varias outras formas, como por exemplo, seleção de subconjunto de recursos para aprendizado de máquina. Portanto, recomendo a leitura da documentação do *widget*  no site do Orange Data Mining.
 
+## Link do video
+
+- <a href="https://youtu.be/Sowm3bH4VUk">Ranqueamento de atributos</a>
+
 ## Referências
 
 - <a href="https://orangedatamining.com">Orange Data Mining - Data Mining</a>
