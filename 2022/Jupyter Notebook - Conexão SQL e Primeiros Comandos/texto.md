@@ -37,6 +37,8 @@ Para criar um novo notebook no VS Code, basta criar um arquivo .ipynb
 
 <br>
 
+Com seu novo Notebook criado, você já consegue programar em Python normalmente
+
 ## Conexão com o banco de dados (Postgres)
 Como é a plataforma mais confortável para mim, vou utilizar o VS Code, mas funciona da mesma forma para o Jupyter Notebook no navegador.
 <br>
@@ -68,7 +70,7 @@ Em uma célula diferente, use a palavra mágica a seguir para carregar a sua eng
 <img src="imagens/loadExt.PNG" width="800">
 
 
-No próximo passo, em uma célula diferente, é preciso fornecer a string de conexão criada anteriormente da seguinte forma
+No próximo passo, em uma célula diferente, é preciso fornecer a string de conexão criada anteriormente ao módulo sql da seguinte forma
 
 > %sql STRING
 
@@ -80,4 +82,23 @@ Usando a variável:
 
 <img src="imagens/sqlCon.PNG" width="700">
 
+Ponto! Sua conexão está feita.
 
+## Fazer o controle do banco de dados pelo Notebook
+
+A partir daí, é bem simples. Você só precisa utilizar as palavra mágica %sql para enviar seu comando ou consulta para o módulo sql.
+
+> %sql INSERT INTO autores(nome, id) VALUES ('Kiera Cass', 124)
+
+<img src="imagens/sqlnsert.PNG" width="700">
+
+Para dedicar uma célula inteira a um comando SQL de múltiplas linhas, use %%sql
+
+>%%sql 
+>
+>SELECT * FROM livros 
+>WHERE titulo LIKE 'B%'
+
+<img src="imagens/sqlSelect.PNG" width="700">
+
+E pronto! Com isso, você já consegue utilizar o Jupyter Notebook para manipulação de dados e para Python! Também vale lembrar que os notebooks suportam Markdown e HTML.
