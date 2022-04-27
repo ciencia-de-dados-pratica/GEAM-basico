@@ -7,8 +7,8 @@
 <li> Navegador
 <li> VS Code
 <p> Para criar um novo notebook no VS Code, basta criar um arquivo .ipynb
-  
-![alt](imagens/jupyterNotebookNewVSCode.jpg)
+  <br>
+<img src="imagens/jupyterNotebookNewVSCode" alt="alt" height=400 width=600>
 
 
 <br>
