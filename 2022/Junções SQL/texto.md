@@ -14,6 +14,75 @@ Esta consulta retorna todas as linhas que satisfazem a condição de junção (*
 
 Exemplo:
 
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+	<td><strong>nome_produto</strong></td>
+	<td><strong>preço</strong></td>
+ <td><strong>quantidade</strong></td>
+ <td><strong>id_fornecedor</strong></td>
+ <td><strong>id</strong></td>
+</tr>
+<tr>
+	<td>Nescau</td>
+	<td>3.50</td>
+ <td>65</td>
+ <td>5</td>
+ <td>0</td>
+</tr>
+ <tr>
+	<td>Leite Moça</td>
+	<td>6.50</td>
+ <td>41</td>
+ <td>5</td>
+ <td>1</td>
+</tr>
+ <tr>
+	<td>Pão Árabe</td>
+	<td>5.99</td>
+ <td>20</td>
+ <td>4</td>
+ <td>2</td>
+</tr>
+ </table>
+ 
+ <table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+	<td><strong>nome_fornecedor</strong></td>
+	<td><strong>cidade</strong></td>
+ <td><strong>id</strong></td>
+</tr>
+<tr>
+	<td>Nestlé</td>
+	<td>São Paulo</td>
+ <td>5</td>
+</tr>
+ <tr>
+	<td>Panificadora Local</td>
+	<td>Quixadá</td>
+ <td>4</td>
+</tr>
+ </table>
+ 
+ > **SELECT** nome_produto, nome_fornecedor **FROM** produto INNER JOIN fornecedor ON produto.id_fornecedor = fornecedor.id;
+
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+	<td><strong>nome_produto</strong></td>
+	<td><strong>nome_fornecedor</strong></td>
+</tr>
+<tr>
+	<td>Nescau</td>
+	<td>Nestle</td>
+</tr>
+ <tr>
+	<td>Leite Moça</td>
+	<td>Nestlé</td>
+</tr>
+ <tr>
+	<td>Pão Árabe</td>
+	<td>Panificadora Local</td>
+</tr>
+ </table>
 
 
 ### Fontes:
