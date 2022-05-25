@@ -134,3 +134,5 @@ Tela após a criação do .ipynb:
 <img src="Imagens/ExecutandoVscode01.jpg">
 
 **Com isso finalizamos a instalação do Jupyter Notebook no Windows e VS Code.**
+
+* Link para o tutorial em vídeo clique [aqui](https://youtu.be/vKXEI6hogfA)
