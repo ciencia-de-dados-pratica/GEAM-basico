@@ -458,7 +458,13 @@ Exemplo:
 </tr>
  </table>
 
+### Resumo e Conclusão
 
+Segue um diagrama que resume bem todo o assunto.
+
+<img src="imagens/sqlJOINS.png" width="480">
+
+Saber utilizar junções é essencial quando se trabalha com bancos de dados, eliminando diversas necessidades de intervenção de aplicações externas e da realização de várias consultas seguidas ao simplesmente juntar tabelas de maneira eficiente.
 
 ### Fontes:
 > https://www.alura.com.br/artigos/join-em-sql?gclid=CjwKCAjwp7eUBhBeEiwAZbHwkS2P7pzAUPexLtZD-xiNm8R_qNrtdC3WRriCy61UmfgUorlZ27Xw1RoCy2wQAvD_BwE
