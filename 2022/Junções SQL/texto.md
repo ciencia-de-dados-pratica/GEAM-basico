@@ -147,12 +147,12 @@ Exemplo:
  </table>
  
  
-> **SELECT** fornecedor.nome as nome_fornecedor, produto.nome as nome_produto **FROM** fornecedor **LEFT JOIN** produto **ON** tabelaA.key = tabelaB.key;
+> **SELECT** fornecedor.nome as nome_fornecedor, produto.nome as nome_produto **FROM** fornecedor **LEFT JOIN** produto **ON** fornecedor.id = produto.id;
 
 <table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
 <tr>
-	<td><strong>nome_produto</strong></td>
 	<td><strong>nome_fornecedor</strong></td>
+	<td><strong>nome_produto</strong></td>
 </tr>
 <tr>
 	<td>Nestlé</td>
@@ -171,7 +171,92 @@ Exemplo:
 	<td>NULL</td>
 </tr>
  </table>
+ 
+ ### RIGHT JOIN
+ 
+ Com o conceito muito parecido com o **LEFT JOIN**, mas, ao invés de exibir todos os registros da esquerda, exibe todos os registros da tabela da direita, deixando os itens sem correspondência à esquerda nulos;
+ 
+Exemplo:
 
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+	<td><strong>nome_produto</strong></td>
+	<td><strong>preço</strong></td>
+ <td><strong>quantidade</strong></td>
+ <td><strong>id_fornecedor</strong></td>
+ <td><strong>id</strong></td>
+</tr>
+<tr>
+	<td>Nescau</td>
+	<td>3.50</td>
+ <td>65</td>
+ <td>5</td>
+ <td>0</td>
+</tr>
+ <tr>
+	<td>Leite Moça</td>
+	<td>6.50</td>
+ <td>41</td>
+ <td>5</td>
+ <td>1</td>
+</tr>
+ <tr>
+	<td>Pão Árabe</td>
+	<td>5.99</td>
+ <td>20</td>
+ <td>4</td>
+ <td>2</td>
+</tr>
+ </table>
+ 
+ <table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+	<td><strong>nome_fornecedor</strong></td>
+	<td><strong>cidade</strong></td>
+ <td><strong>id</strong></td>
+</tr>
+<tr>
+	<td>Nestlé</td>
+	<td>São Paulo</td>
+ <td>5</td>
+</tr>
+ <tr>
+	<td>Panificadora Local</td>
+	<td>Quixadá</td>
+ <td>4</td>
+</tr>
+ <tr>
+<td>Sadia</td>
+<td>Rio de Janeiro</td>
+ <td>3</td>
+</tr>
+ </table>
+ 
+ 
+> **SELECT** produto.nome as nome_produto, fornecedor.nome as nome_fornecedor **FROM** produto **RIGHT JOIN** fornecedor **ON** produto.id = fornecedor.id;
+
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+	<td><strong>nome_produto</strong></td>
+	<td><strong>nome_fornecedor</strong></td>
+</tr>
+<tr>
+	<td>Nescau</td>
+	<td>Nestlé</td>
+</tr>
+ <tr>
+	<td>Leite Moça</td>
+	<td>Nestlé</td>
+</tr>
+ <tr>
+	<td>Pão Árabe</td>
+	<td>Panificadora Local</td>
+</tr>
+<tr>
+	<td>NULL</td>
+	<td>Sadia</td>
+</tr>
+ </table>
 
 
 
