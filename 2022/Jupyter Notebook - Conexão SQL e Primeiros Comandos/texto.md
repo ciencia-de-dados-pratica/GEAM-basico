@@ -102,3 +102,5 @@ Para dedicar uma célula inteira a um comando SQL de múltiplas linhas, use %%sq
 <img src="imagens/sqlSelect.PNG" width="700">
 
 E pronto! Com isso, você já consegue utilizar o Jupyter Notebook para manipulação de dados e para Python! Também vale lembrar que os notebooks suportam Markdown e HTML.
+
+Link para o tutorial em vídeo: https://youtu.be/beytlX8jT2k;
