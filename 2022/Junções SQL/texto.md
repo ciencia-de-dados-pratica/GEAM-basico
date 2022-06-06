@@ -472,3 +472,5 @@ Saber utilizar junções é essencial quando se trabalha com bancos de dados, el
 > https://www.w3schools.com/sql/sql_join.asp
 > 
 > Pinterest
+
+Link do vídeo: https://youtu.be/DVMyiQMah6o
