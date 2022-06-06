@@ -175,3 +175,5 @@ Ao final da execução desse código teremos a coluna maximo_preco_venda contend
 <img src="imagens/alias01.jpg">
 
 ### Com isso terminamos a parte de Funções de Agregação e Agrupamento.
+
+### Para poder ver o vídeo de referência a esse texto clique [aqui](https://youtu.be/2HC-yDvXCew). 
